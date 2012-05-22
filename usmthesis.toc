@@ -1,0 +1,27 @@
+\select@language {english}
+\contentsline {chapter}{Acknowledgements}{ii}
+\contentsline {chapter}{Table of Contents}{iii}
+\contentsline {chapter}{List of Tables}{iv}
+\contentsline {chapter}{List of Figures}{v}
+\contentsline {chapter}{List of Plates}{vi}
+\contentsline {chapter}{List of Abbreviations}{vii}
+\contentsline {chapter}{List of Symbols}{viii}
+\select@language {bahasa}
+\contentsline {chapter}{Abstrak}{ix}
+\select@language {english}
+\contentsline {chapter}{Abstract}{x}
+\setlength {\cftbeforechapskip }{2.5pc}
+\cftpagenumbersoff {chap}
+\contentsline {chapter}{\numberline {1}\uppercase {Introduction}}{1}
+\contentsline {section}{\numberline {1.1}Background}{1}
+\contentsline {section}{\numberline {1.2}Research Background}{2}
+\contentsline {chapter}{\numberline {2}\uppercase {Literature Review}}{3}
+\contentsline {chapter}{\numberline {3}\uppercase {Methodology}}{4}
+\contentsline {chapter}{\numberline {4}\uppercase {Result and Discussion}}{5}
+\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{6}
+\cftpagenumberson {chap}
+\setlength {\cftbeforechapskip }{1pc}
+\contentsline {part}{\uppercase {Appendices}}{7}
+\renewcommand {\chaptername }{Appendix}
+\setlength \cftchapnumwidth {7pc}
+\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{8}
