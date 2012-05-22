@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  22 MAY 2012 18:45
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  22 MAY 2012 22:56
 entering extended mode
  %&-line parsing enabled.
 **usmthesis.tex
@@ -814,7 +814,11 @@ Chapter 1.
 
 
 
-]) [2]
+]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 13.
+ (/usr/share/texmf/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)) [2]
 \openout2 = `chap-literature.aux'.
 
  (./chap-literature.tex
@@ -850,38 +854,40 @@ Chapter 5.
 
 
 
-])
-No file usmthesis.bbl.
+]) (./usmthesis.bbl) [7
+
+
+]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 204.
-(./appendices.tex [7
-
+ (./appendices.tex [8
 
 ]
 \openout2 = `app-data.aux'.
 
  (./app-data.tex
 Appendix A.
-) [8
+) [9
 
 
 ]) (./usmthesis.aux (./acknowledgements.aux) (./loa.aux) (./chap-intro.aux) (./
 chap-literature.aux) (./chap-methodology.aux) (./chap-discussion.aux)
 (./chap-conclusion.aux) (./app-data.aux)) ) 
 Here is how much of TeX's memory you used:
- 7467 strings out of 256216
- 100818 string characters out of 1917072
+ 7497 strings out of 256216
+ 101197 string characters out of 1917072
  174544 words of memory out of 1500000
- 10497 multiletter control sequences out of 10000+200000
- 35185 words of font info for 56 fonts, out of 1200000 for 2000
+ 10519 multiletter control sequences out of 10000+200000
+ 38347 words of font info for 59 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 50i,11n,45p,577b,280s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 50i,11n,45p,864b,280s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/ba
 se/8r.enc}</usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/
-fonts/type1/urw/times/utmr8a.pfb>
-Output written on usmthesis.pdf (19 pages, 45994 bytes).
+fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on usmthesis.pdf (20 pages, 59302 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

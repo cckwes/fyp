@@ -1,0 +1,16 @@
+-introduction
+	*introduction to PMBLDC
+		** components in PMBLDC
+		** how it works
+		** ac signal
+	*introduction to shell eco marathon (Problem Statement)
+		** how it works, rules, distance, spec
+	*objectives
+		** tapping the signal from the proprietary system
+		** develop the apparatus for measuring the motor performance
+		** propose a method for improving the efficiency through reducing the cogging torque? by altering the hall effect sensor signal
+		** improving the mileage of the electric vehicle by tuning Cd
+	*scope of research
+		** the power output and torque curve of the electric motor
+		** investigate the composition of the PMBLDC
+		** 
