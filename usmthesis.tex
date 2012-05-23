@@ -53,6 +53,17 @@
 
 %%pdf bookmark
 \usepackage[pdftex,bookmarks=true]{hyperref}
+\usepackage{tocloft}
+\usepackage{amsmath}
+
+
+\newcommand{\listequationsname}{List of Equations}
+\newlistof{myequations}{equ}{\listequationsname}
+\newcommand{\myequations}[1]{%
+%\refstepcounter{myequations}
+%\par\noindent\textbf{Equation \theequation. #1}
+\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % As we have loaded the natbib package, you can customise
@@ -128,6 +139,8 @@
 \tableofcontents \clearpage
 \listoftables \clearpage
 \listoffigures \clearpage
+\listofmyequations \clearpage
+\addcontentsline{toc}{chapter}{List of Equations}
 \end{singlespace}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

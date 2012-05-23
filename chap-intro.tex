@@ -67,10 +67,20 @@ The objectives for this project are:
 
 \section{Scope of Research}
 
-In this project, the proprietary controller and PMBLDC motor signal output port will be identified. After that, by utilizing the signal output of the hall effect sensor and the controller speed output signal port, a set of instrument will be build for measuring the speed, input current and input voltage. The power input will then be calculated using the relationship as shown in equation 1.1.
+In this project, the proprietary controller and PMBLDC motor signal output port will be identified. After that, by utilizing the signal output of the hall effect sensor and the controller speed output signal port, a set of instrument will be build for measuring the speed, input current and input voltage. The power input will then be calculated based on the voltage and current input.
 
+%%\begin{equation}
+%%\label{eq:powerInput}
+%%\text{\myequations{Power Input}}
+%%P_{input} = V_{input}I_{input}
+%%\end{equation}
 
+After the instrumentation for measuring the performance of the electric vehicle is established, methods for improving the overall electric vehicle efficiency will be suggested which includes reducing the frontal area and improving the coefficient of drag of the electric vehicle and hence reducing the drag force. Modification on the phase current signal using indirect method also will be suggested for reducing the torque ripple and hence improving the overall efficiency of the electric vehicle.
 
-%%Due to the PMBLDC and the controller used in the project is proprietary and sponsored, the modification to the electric motor structure which includes the rotor poles, stator winding, hall effect sensors within the PMBLDC motor and the controller's wiring and signal input/output is impossible. 
+Next up, the behaviour of the electric vehicle on the Sepang North Track will be simulated with taking the drag force, rolling resistance and track gradient into consideration. With the frontal area, coefficient of drag, coefficient of rolling resistance and the mass of the vehicle as manipulating variables, a set of strategies could be created for electric vehicle at different mass, tyre pressure at the same track with using the same electric motor as drive train.
 
+\section{Research Approach}
 
+For tapping the signal from the PMBLDC motor's hall effect sensors as well as the analog/digital output from the controller circuit board for the speed signal, multimeter will be used. For building the measurement tools for measuring and logging the input voltage, input current and the speed of the vehicle, Arduino boards will be used in conjunction with the self-made transducing circuit.
+
+For simulating the vehicle's behaviour on track, self-made codes using C++ language will be used for iteration. Data's for each set of simulation and strategies will be saved and the graph will be plot for analysing the effectiveness of the strategy.
