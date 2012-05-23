@@ -8,3 +8,14 @@
 	year = "2003"
 }
 
+@article{directtorque,
+	author = "French, Chris and Acarney, Paul",
+	journal = "IEEE Transactions on Industry Applications",
+	month = "September/October",
+	number = "5",
+	pages = "9",
+	title = "{Direct Torque Control of Permanent Magnet Drives}",
+	volume = "32",
+	year = "1996"
+}
+

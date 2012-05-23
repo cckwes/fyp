@@ -51,6 +51,9 @@
 %%  \usepackage[dvips,plainpages=false,bookmarksnumbered,breaklinks=true]{hyperref}
 %%\fi
 
+%%pdf bookmark
+\usepackage[pdftex,bookmarks=true]{hyperref}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % As we have loaded the natbib package, you can customise
 % the citation style to some extent.  The following line
@@ -99,8 +102,6 @@
 \addtocontents{lof}{\protect\hfill{\protect\bfseries Page}\\}
 \addtocontents{lot}{\protect\raggedright\protect\sloppy}
 \addtocontents{lot}{\protect\hfill{\protect\bfseries Page}\\}
-\addtocontents{lop}{\protect\raggedright\protect\sloppy}
-\addtocontents{lop}{\protect\hfill{\protect\bfseries Page}\\}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Inserts the cover page (the hard cover with gold-lettering)
@@ -127,7 +128,6 @@
 \tableofcontents \clearpage
 \listoftables \clearpage
 \listoffigures \clearpage
-\listofplates \clearpage
 \end{singlespace}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -173,9 +173,9 @@
 
 \addtocontents{toc}{\protect\cftpagenumberson{chap}}
 
-%\ifpdf
-%  \pdfbookmark[-1]{Back Matter}{back}
-%\else\fi
+%%\ifpdf
+%%  \pdfbookmark[-1]{Back Matter}{back}
+%%\else\fi
 
 \begin{singlespace}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

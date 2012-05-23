@@ -12,42 +12,42 @@ A level-1 auxiliary file: app-data.aux
 Database file #1: mybib.bib
 You've used 2 entries,
             2774 wiz_defined-function locations,
-            618 strings with 5241 characters,
-and the built_in function-call counts, 686 in all, are:
-= -- 60
-> -- 31
-< -- 2
-+ -- 11
-- -- 9
-* -- 45
-:= -- 117
+            616 strings with 5258 characters,
+and the built_in function-call counts, 801 in all, are:
+= -- 72
+> -- 40
+< -- 1
++ -- 14
+- -- 12
+* -- 61
+:= -- 133
 add.period$ -- 6
 call.type$ -- 2
-change.case$ -- 6
+change.case$ -- 7
 chr.to.int$ -- 2
 cite$ -- 4
-duplicate$ -- 35
-empty$ -- 58
-format.name$ -- 13
-if$ -- 137
+duplicate$ -- 36
+empty$ -- 65
+format.name$ -- 14
+if$ -- 159
 int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 1
 newline$ -- 18
 num.names$ -- 8
-pop$ -- 16
+pop$ -- 18
 preamble$ -- 1
-purify$ -- 5
+purify$ -- 6
 quote$ -- 0
 skip$ -- 25
 stack$ -- 0
-substring$ -- 7
-swap$ -- 4
+substring$ -- 29
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 22
 warning$ -- 0
-while$ -- 7
+while$ -- 8
 width$ -- 0
 write$ -- 32

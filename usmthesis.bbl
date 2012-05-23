@@ -5,11 +5,12 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[French and Acarney(1996)]{directtorque}
-Chris French and Paul Acarney.
-\newblock {Direct Torque Control of Permanent Magnet Drives}.
-\newblock \emph{IEEE Transactions on Industry Applications}, 32\penalty0
-  (5):\penalty0 9, September/October 1996.
+\bibitem[Salah et~al.(2011)Salah, Ishak, and Hammadi]{7648}
+Wael~A. Salah, Dahaman Ishak, and Khaleel~J. Hammadi.
+\newblock {PWM Switching Strategy For Torque Ripple Minimization in BLDC
+  Motor}.
+\newblock \emph{Journal of Electrical Engineering}, 62\penalty0 (3):\penalty0
+  141--146, 2011.
 
 \bibitem[Yedamale(2003)]{an885}
 Padmaraja Yedamale.
