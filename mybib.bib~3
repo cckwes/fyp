@@ -8,3 +8,24 @@
 	year = "2003"
 }
 
+@article{7648,
+	author = "Salah, Wael A. and Ishak, Dahaman and Hammadi, Khaleel J.",
+	journal = "Journal of Electrical Engineering",
+	number = "3",
+	pages = "141--146",
+	title = "{PWM Switching Strategy For Torque Ripple Minimization in BLDC Motor}",
+	volume = "62",
+	year = "2011"
+}
+
+@article{00824132,
+	author = "Park, Sung Jun and Park, Han Woong and others",
+	journal = "IEEE Transactions on Industrial Electronics",
+	month = feb,
+	number = "1",
+	pages = "109--114",
+	title = "{A new Approach for Minimum-Torque-Ripple Maximum-Efficiency Control of BLDC Motor}",
+	volume = "47",
+	year = "2000"
+}
+

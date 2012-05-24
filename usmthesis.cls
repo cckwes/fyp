@@ -124,7 +124,7 @@
 % Page Boundaries and graphics
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{graphicx}
-\RequirePackage[a4paper,top=25mm,bottom=25mm,left=40mm,right=25mm,footskip=1.5cm]{geometry}
+\RequirePackage[a4paper,top=25mm,bottom=25mm,left=38mm,right=25mm,footskip=1.5cm]{geometry}
 
 \ifpdf
 \pdfcompresslevel=9
