@@ -10,44 +10,44 @@ A level-1 auxiliary file: chap-discussion.aux
 A level-1 auxiliary file: chap-conclusion.aux
 A level-1 auxiliary file: app-data.aux
 Database file #1: mybib.bib
-You've used 5 entries,
+You've used 9 entries,
             1876 wiz_defined-function locations,
-            518 strings with 4487 characters,
-and the built_in function-call counts, 1542 in all, are:
-= -- 164
-> -- 51
+            541 strings with 5221 characters,
+and the built_in function-call counts, 2713 in all, are:
+= -- 291
+> -- 86
 < -- 0
-+ -- 19
-- -- 14
-* -- 108
-:= -- 215
-add.period$ -- 6
-call.type$ -- 5
-change.case$ -- 4
++ -- 32
+- -- 23
+* -- 189
+:= -- 373
+add.period$ -- 10
+call.type$ -- 9
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 75
-empty$ -- 135
-format.name$ -- 14
-if$ -- 376
+cite$ -- 9
+duplicate$ -- 135
+empty$ -- 240
+format.name$ -- 23
+if$ -- 666
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 4
-newline$ -- 19
-num.names$ -- 5
-pop$ -- 10
+int.to.str$ -- 9
+missing$ -- 8
+newline$ -- 31
+num.names$ -- 9
+pop$ -- 18
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 62
+skip$ -- 113
 stack$ -- 0
-substring$ -- 132
-swap$ -- 40
+substring$ -- 230
+swap$ -- 70
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 16
-width$ -- 6
-write$ -- 51
+while$ -- 30
+width$ -- 10
+write$ -- 90

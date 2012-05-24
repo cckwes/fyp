@@ -24,4 +24,25 @@ K.-Y. Nam, W.-T. Lee, C.-M. Lee, and J.-P. Hong, ``{Reducing Torque Ripple of
   Brushless DC Motor by Varying Input Voltage},'' {\em IEEE Transactions on
   Magnetics}, vol.~42, pp.~1307--1310, Apr. 2006.
 
+\bibitem{285}
+M.~A. Enany, H.~M. Elshewy, and F.~E. Abdel-kader, ``{Brushless DC Motor
+  Performance Improvement through Switch-on and Switch-off Angles Control},''
+  {\em Proceedings of the 14th International Middle East Power System
+  Conference (MEPCON'10)}, pp.~786--790, Dec. 2010.
+
+\bibitem{08305}
+G.~H. Jang and C.~J. Lee, ``{Design and Control of the Phase Current of a
+  Brushless DC Motor to Eliminate Cogging Torque},'' {\em Journal of Applied
+  Physics}, p.~3, 2006.
+
+\bibitem{1450216}
+V.~A. and D.~N., ``{Torque Ripple Minimization in Indirect Position Detection
+  of Permanent Magnet Brushless DC Motor},'' {\em European Journal of
+  Scientific Research}, vol.~65, no.~4, pp.~481--489, 2011.
+
+\bibitem{04435197}
+L.~Parsa and L.~Hao, ``{Interior Permanent Magenet Motors With Reduced Torque
+  Pulsation},'' {\em IEEE Transactions on Industrial Electronics}, vol.~55,
+  pp.~602--609, Feb. 2008.
+
 \end{thebibliography}

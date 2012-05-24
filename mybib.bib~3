@@ -24,8 +24,36 @@
 	month = feb,
 	number = "1",
 	pages = "109--114",
-	title = "{A new Approach for Minimum-Torque-Ripple Maximum-Efficiency Control of BLDC Motor}",
+	title = "{A New Approach for Minimum-Torque-Ripple Maximum-Efficiency Control of BLDC Motor}",
 	volume = "47",
 	year = "2000"
+}
+
+@article{00976016,
+	author = "Kim, Tae-Sung and Ahn, Sung-Chan and Hyun, Dong-Seok",
+	journal = "IECON'01: The 27th Annual Conference of the IEEE Industrial Electronics Society",
+	pages = "521--526",
+	title = "{A New Current Control Algorithm for Torque Ripple Reduction of BLDC Motors}",
+	year = "2001"
+}
+
+@article{01608454,
+	author = "Nam, Ki-Yong and Lee, Woo-Taik and Lee, Choon-Man and Hong, Jung-Pyo",
+	journal = "IEEE Transactions on Magnetics",
+	month = apr,
+	number = "4",
+	pages = "1307--1310",
+	title = "{Reducing Torque Ripple of Brushless DC Motor by Varying Input Voltage}",
+	volume = "42",
+	year = "2006"
+}
+
+@article{285,
+	author = "Enany, Mohamed. A. and Elshewy, Hamed. M. and Abdel-kader, Fathy. E.",
+	journal = "Proceedings of the 14th International Middle East Power System Conference (MEPCON'10)",
+	month = dec,
+	pages = "786--790",
+	title = "{Brushless DC Motor Performance Improvement through Switch-on and Switch-off Angles Control}",
+	year = "2010"
 }
 
