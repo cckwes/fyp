@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{an885}
 P.~Yedamale, {\em {Brushless DC (BLDC) Motor Fundamentals}}.
@@ -44,5 +44,11 @@ V.~A. and D.~N., ``{Torque Ripple Minimization in Indirect Position Detection
 L.~Parsa and L.~Hao, ``{Interior Permanent Magenet Motors With Reduced Torque
   Pulsation},'' {\em IEEE Transactions on Industrial Electronics}, vol.~55,
   pp.~602--609, Feb. 2008.
+
+\bibitem{01433223}
+M.~Koot, J.~T. B.~A. Kessels, B.~de~Jager, W.~P. M.~H. Heemels, P.~P.~J.
+  van~den Bosch, and M.~Steinbuch, ``{Energy Management Strategies for
+  Vehicular Electric Power Systems},'' {\em IEEE Transactions on Vehicular
+  Technology}, vol.~54, pp.~771--782, May 2005.
 
 \end{thebibliography}

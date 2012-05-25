@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  24 MAY 2012 23:49
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  25 MAY 2012 11:26
 entering extended mode
  %&-line parsing enabled.
 **usmthesis.tex
@@ -918,12 +918,12 @@ Chapter 2.
 
 
 
-] [10]) [11]
+] [10] [11]) [12]
 \openout2 = `chap-methodology.aux'.
 
  (./chap-methodology.tex
 Chapter 3.
-) [12
+) [13
 
 
 
@@ -932,7 +932,7 @@ Chapter 3.
 
  (./chap-discussion.tex
 Chapter 4.
-) [13
+) [14
 
 
 
@@ -941,34 +941,34 @@ Chapter 4.
 
  (./chap-conclusion.tex
 Chapter 5.
-) [14
+) [15
 
 
 
-]) (./usmthesis.bbl) [15
+]) (./usmthesis.bbl) [16
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 222.
- (./appendices.tex [16
+ (./appendices.tex [17
 
 ]
 \openout2 = `app-data.aux'.
 
  (./app-data.tex
 Appendix A.
-) [17
+) [18
 
 
 ]) (./usmthesis.aux (./acknowledgements.aux) (./loa.aux) (./chap-intro.aux) (./
 chap-literature.aux) (./chap-methodology.aux) (./chap-discussion.aux)
 (./chap-conclusion.aux) (./app-data.aux)) ) 
 Here is how much of TeX's memory you used:
- 9349 strings out of 256216
- 128113 string characters out of 1917072
+ 9352 strings out of 256216
+ 128143 string characters out of 1917072
  204830 words of memory out of 1500000
- 12254 multiletter control sequences out of 10000+200000
+ 12255 multiletter control sequences out of 10000+200000
  46464 words of font info for 68 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  50i,12n,45p,905b,528s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -976,9 +976,9 @@ Here is how much of TeX's memory you used:
 se/8r.enc}</usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/
 fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on usmthesis.pdf (29 pages, 202961 bytes).
+Output written on usmthesis.pdf (30 pages, 204767 bytes).
 PDF statistics:
- 331 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 131072)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 131072)
  232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

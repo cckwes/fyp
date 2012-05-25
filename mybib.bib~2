@@ -57,3 +57,44 @@
 	year = "2010"
 }
 
+@article{08305,
+	author = "Jang, G. H. and Lee, C. J.",
+	journal = "Journal of Applied Physics",
+	pages = "3",
+	title = "{Design and Control of the Phase Current of a Brushless DC Motor to Eliminate Cogging Torque}",
+	year = "2006"
+}
+
+@article{1450216,
+	author = "A., Vanisri and N., Devarajan",
+	journal = "European Journal of Scientific Research",
+	number = "4",
+	pages = "481--489",
+	publisher = "EuroJournals Publishing, Inc.",
+	title = "{Torque Ripple Minimization in Indirect Position Detection of Permanent Magnet Brushless DC Motor}",
+	volume = "65",
+	year = "2011"
+}
+
+@article{04435197,
+	author = "Parsa, Leila and Hao, Lei",
+	journal = "IEEE Transactions on Industrial Electronics",
+	month = feb,
+	number = "2",
+	pages = "602--609",
+	title = "{Interior Permanent Magenet Motors With Reduced Torque Pulsation}",
+	volume = "55",
+	year = "2008"
+}
+
+@article{01433223,
+	author = "Koot, Michiel and Kessels, J. T. B. A. and de Jager, Bram and Heemels, W. P. M. H. and van den Bosch, P. P. J. and Steinbuch, Maarten",
+	journal = "IEEE Transactions on Vehicular Technology",
+	month = may,
+	number = "3",
+	pages = "771-782",
+	title = "{Energy Management Strategies for Vehicular Electric Power Systems}",
+	volume = "54",
+	year = "2005"
+}
+

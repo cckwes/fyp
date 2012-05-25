@@ -32,7 +32,7 @@
 @article{00976016,
 	author = "Kim, Tae-Sung and Ahn, Sung-Chan and Hyun, Dong-Seok",
 	journal = "IECON'01: The 27th Annual Conference of the IEEE Industrial Electronics Society",
-	pages = "521-526",
+	pages = "521--526",
 	title = "{A New Current Control Algorithm for Torque Ripple Reduction of BLDC Motors}",
 	year = "2001"
 }
@@ -46,5 +46,14 @@
 	title = "{Reducing Torque Ripple of Brushless DC Motor by Varying Input Voltage}",
 	volume = "42",
 	year = "2006"
+}
+
+@article{285,
+	author = "Enany, Mohamed. A. and Elshewy, Hamed. M. and Abdel-kader, Fathy. E.",
+	journal = "Proceedings of the 14th International Middle East Power System Conference (MEPCON'10)",
+	month = dec,
+	pages = "786--790",
+	title = "{Brushless DC Motor Performance Improvement through Switch-on and Switch-off Angles Control}",
+	year = "2010"
 }
 

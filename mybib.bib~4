@@ -48,3 +48,31 @@
 	year = "2006"
 }
 
+@article{285,
+	author = "Enany, Mohamed. A. and Elshewy, Hamed. M. and Abdel-kader, Fathy. E.",
+	journal = "Proceedings of the 14th International Middle East Power System Conference (MEPCON'10)",
+	month = dec,
+	pages = "786--790",
+	title = "{Brushless DC Motor Performance Improvement through Switch-on and Switch-off Angles Control}",
+	year = "2010"
+}
+
+@article{08305,
+	author = "Jang, G. H. and Lee, C. J.",
+	journal = "Journal of Applied Physics",
+	pages = "3",
+	title = "{Design and Control of the Phase Current of a Brushless DC Motor to Eliminate Cogging Torque}",
+	year = "2006"
+}
+
+@article{1450216,
+	author = "A., Vanisri and N., Devarajan",
+	journal = "European Journal of Scientific Research",
+	number = "4",
+	pages = "481-489",
+	publisher = "EuroJournals Publishing, Inc.",
+	title = "{Torque Ripple Minimization in Indirect Position Detection of Permanent Magnet Brushless DC Motor}",
+	volume = "65",
+	year = "2011"
+}
+
