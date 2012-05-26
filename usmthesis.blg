@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: usmthesis.aux
-The style file: ieeetr.bst
+The style file: apalike.bst
 A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: loa.aux
 A level-1 auxiliary file: chap-intro.aux
@@ -10,44 +10,44 @@ A level-1 auxiliary file: chap-discussion.aux
 A level-1 auxiliary file: chap-conclusion.aux
 A level-1 auxiliary file: app-data.aux
 Database file #1: mybib.bib
-You've used 10 entries,
-            1876 wiz_defined-function locations,
-            548 strings with 5484 characters,
-and the built_in function-call counts, 3091 in all, are:
-= -- 328
-> -- 106
-< -- 0
-+ -- 39
-- -- 29
-* -- 221
-:= -- 429
-add.period$ -- 11
-call.type$ -- 10
-change.case$ -- 9
-chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 151
-empty$ -- 268
-format.name$ -- 29
-if$ -- 754
-int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 9
-newline$ -- 34
-num.names$ -- 10
-pop$ -- 19
+You've used 14 entries,
+            1935 wiz_defined-function locations,
+            569 strings with 6402 characters,
+and the built_in function-call counts, 6151 in all, are:
+= -- 611
+> -- 261
+< -- 9
++ -- 88
+- -- 88
+* -- 534
+:= -- 1049
+add.period$ -- 42
+call.type$ -- 14
+change.case$ -- 112
+chr.to.int$ -- 14
+cite$ -- 14
+duplicate$ -- 223
+empty$ -- 415
+format.name$ -- 110
+if$ -- 1214
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 13
+newline$ -- 73
+num.names$ -- 42
+pop$ -- 92
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 113
 quote$ -- 0
-skip$ -- 127
+skip$ -- 180
 stack$ -- 0
-substring$ -- 262
-swap$ -- 79
-text.length$ -- 0
+substring$ -- 471
+swap$ -- 43
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 84
 warning$ -- 0
-while$ -- 34
-width$ -- 12
-write$ -- 100
+while$ -- 53
+width$ -- 0
+write$ -- 183

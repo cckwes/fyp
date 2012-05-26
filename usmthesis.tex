@@ -57,17 +57,6 @@
 
 %%pdf bookmark
 \usepackage[pdftex,bookmarks=true]{hyperref}
-\usepackage{tocloft}
-\usepackage{amsmath}
-
-
-\newcommand{\listequationsname}{List of Equations}
-\newlistof{myequations}{equ}{\listequationsname}
-\newcommand{\myequations}[1]{%
-%\refstepcounter{myequations}
-%\par\noindent\textbf{Equation \theequation. #1}
-\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % As we have loaded the natbib package, you can customise
@@ -91,7 +80,7 @@
 % You may change any of the 6 parameters if you prefer a
 % different citation style.  Also see the natbib documentation.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\bibpunct{[}{]}{;}{a}{,}{,}
+\bibpunct{(}{)}{;}{a}{,}{,}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -107,7 +96,7 @@
 %\bibliographystyleown{dcu}
 %\bibliographystyle{plainnat}
 %\bibliographystyleown{plainnat}
-\bibliographystyle{ieeetr}
+\bibliographystyle{apalike}
 
 
 \lstset{fontadjust=true}
@@ -118,6 +107,8 @@
 \addtocontents{lof}{\protect\hfill{\protect\bfseries Page}\\}
 \addtocontents{lot}{\protect\raggedright\protect\sloppy}
 \addtocontents{lot}{\protect\hfill{\protect\bfseries Page}\\}
+\addtocontents{equ}{\protect\raggedright\protect\sloppy}
+\addtocontents{equ}{\protect\hfill{\protect\bfseries Page}\\}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Inserts the cover page (the hard cover with gold-lettering)
@@ -139,13 +130,11 @@
 \include{acknowledgements}
 
 
-\renewcommand\contentsname{Table of Contents}
 \begin{singlespace}
 \tableofcontents \clearpage
 \listoftables \clearpage
 \listoffigures \clearpage
-\listofmyequations \clearpage
-\addcontentsline{toc}{chapter}{List of Equations}
+\listofequations \clearpage
 \end{singlespace}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

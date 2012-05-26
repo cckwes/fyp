@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  25 MAY 2012 11:26
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  26 MAY 2012 15:49
 entering extended mode
  %&-line parsing enabled.
 **usmthesis.tex
@@ -393,30 +393,37 @@ Package tocloft Note: The document has chapter divisions.
 \cftsubtabindent=\skip91
 \cftsubtabnumwidth=\skip92
 )
-\c@plate=\count114
-\cftbeforeplateskip=\skip93
-\cftplateindent=\skip94
-\cftplatenumwidth=\skip95
-\c@lopdepth=\count115
-\cftbeforeloptitleskip=\skip96
-\cftafterloptitleskip=\skip97
+\c@myequations=\count114
+\cftbeforemyequationsskip=\skip93
+\cftmyequationsindent=\skip94
+\cftmyequationsnumwidth=\skip95
+\c@equdepth=\count115
+\cftbeforeequtitleskip=\skip96
+\cftafterequtitleskip=\skip97
+\c@plate=\count116
+\cftbeforeplateskip=\skip98
+\cftplateindent=\skip99
+\cftplatenumwidth=\skip100
+\c@lopdepth=\count117
+\cftbeforeloptitleskip=\skip101
+\cftafterloptitleskip=\skip102
  (/usr/share/texmf/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip98
-\f@ncyO@elh=\skip99
-\f@ncyO@erh=\skip100
-\f@ncyO@olh=\skip101
-\f@ncyO@orh=\skip102
-\f@ncyO@elf=\skip103
-\f@ncyO@erf=\skip104
-\f@ncyO@olf=\skip105
-\f@ncyO@orf=\skip106
+\fancy@headwidth=\skip103
+\f@ncyO@elh=\skip104
+\f@ncyO@erh=\skip105
+\f@ncyO@olh=\skip106
+\f@ncyO@orh=\skip107
+\f@ncyO@elf=\skip108
+\f@ncyO@erf=\skip109
+\f@ncyO@olf=\skip110
+\f@ncyO@orf=\skip111
 )
 (/usr/share/texmf/tex/latex/rotfloat/rotfloat.sty
 Package: rotfloat 2004/01/04 v1.2 Combining float+rotating package (AS)
 
 (/usr/share/texmf/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count116
+\c@float@type=\count118
 \float@exts=\toks21
 \float@box=\box29
 \@float@everytoks=\toks22
@@ -428,7 +435,7 @@ Package: rotating 1997/09/26, v2.13 Rotation package
 (/usr/share/texmf/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count117
+\c@r@tfl@t=\count119
 \rot@float@box=\box31
 )
 Package rotfloat Info: float package v1.3 detected on input line 74.
@@ -439,14 +446,14 @@ Package rotfloat Info: float package v1.3 detected on input line 74.
 
 
 Package float Warning: Can't redefine counter variable for plate. on input line
- 291.
+ 300.
 
 (/usr/share/texmf/tex/latex/paralist/paralist.sty
 Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
-\pltopsep=\skip107
-\plpartopsep=\skip108
-\plitemsep=\skip109
-\plparsep=\skip110
+\pltopsep=\skip112
+\plpartopsep=\skip113
+\plitemsep=\skip114
+\plparsep=\skip115
 \pl@lab=\toks26
 )
 (/usr/share/texmf/tex/latex/algorithms/algorithmic.sty
@@ -455,48 +462,48 @@ Package: algorithmic 2006/06/02
 Document Style `algorithmic' - environment
 (/usr/share/texmf/tex/latex/tools/calc.sty
 Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count118
-\calc@Bcount=\count119
+\calc@Acount=\count120
+\calc@Bcount=\count121
 \calc@Adimen=\dimen132
 \calc@Bdimen=\dimen133
-\calc@Askip=\skip111
-\calc@Bskip=\skip112
+\calc@Askip=\skip116
+\calc@Bskip=\skip117
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count120
-\calc@Cskip=\skip113
+\calc@Ccount=\count122
+\calc@Cskip=\skip118
 )
-\c@ALC@line=\count121
-\c@ALC@rem=\count122
-\c@ALC@depth=\count123
-\ALC@tlm=\skip114
-\algorithmicindent=\skip115
+\c@ALC@line=\count123
+\c@ALC@rem=\count124
+\c@ALC@depth=\count125
+\ALC@tlm=\skip119
+\algorithmicindent=\skip120
 )
 (/usr/share/texmf/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 1998/07/17
 
 Style option: `fancyvrb' v2.6, with DG/SPQR fixes <1998/07/17> (tvz)
-\FV@CodeLineNo=\count124
+\FV@CodeLineNo=\count126
 \FV@InFile=\read1
 \FV@TabBox=\box32
-\c@FancyVerbLine=\count125
-\FV@StepNumber=\count126
+\c@FancyVerbLine=\count127
+\FV@StepNumber=\count128
 \FV@OutFile=\write3
 
 No file fancyvrb.cfg.
 ) (/usr/share/texmf/tex/latex/listings/listings.sty
-\lst@mode=\count127
+\lst@mode=\count129
 \lst@gtempboxa=\box33
 \lst@token=\toks27
-\lst@length=\count128
+\lst@length=\count130
 \lst@currlwidth=\dimen134
-\lst@column=\count129
-\lst@pos=\count130
+\lst@column=\count131
+\lst@pos=\count132
 \lst@lostspace=\dimen135
 \lst@width=\dimen136
-\lst@newlines=\count131
-\lst@lineno=\count132
-\c@lstlisting=\count133
+\lst@newlines=\count133
+\lst@lineno=\count134
+\c@lstlisting=\count135
 \lst@maxwidth=\dimen137
 
 (/usr/share/texmf/tex/latex/listings/lstpatch.sty
@@ -504,8 +511,8 @@ File: lstpatch.sty 2004/10/17 1.3b (Carsten Heinz)
 )
 (/usr/share/texmf/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2004/09/07 1.3 (Carsten Heinz)
-\c@lstnumber=\count134
-\lst@skipnumbers=\count135
+\c@lstnumber=\count136
+\lst@skipnumbers=\count137
 \lst@framebox=\box34
 )
 (/usr/share/texmf/tex/latex/listings/listings.cfg
@@ -533,15 +540,15 @@ Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
 \col@sep=\dimen138
 \extrarowheight=\dimen139
 \NC@list=\toks29
-\extratabsurround=\skip116
-\backup@length=\skip117
+\extratabsurround=\skip121
+\backup@length=\skip122
 )
 \TX@col@width=\dimen140
 \TX@old@table=\dimen141
 \TX@old@col=\dimen142
 \TX@target=\dimen143
 \TX@delta=\dimen144
-\TX@cols=\count136
+\TX@cols=\count138
 \TX@ftn=\toks30
 )
 (/usr/share/texmf/tex/latex/colortbl/colortbl.sty
@@ -556,27 +563,27 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package color Info: Driver file: pdftex.def on input line 130.
 )
 \everycr=\toks31
-\minrowclearance=\skip118
+\minrowclearance=\skip123
 )
 (/usr/share/texmf/tex/latex/tools/dcolumn.sty
 Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
 )
 (/usr/share/texmf/tex/latex/natbib/natbib.sty
 Package: natbib 2007/02/05 8.0 (PWD)
-\bibhang=\skip119
-\bibsep=\skip120
+\bibhang=\skip124
+\bibsep=\skip125
 LaTeX Info: Redefining \cite on input line 602.
-\c@NAT@ctr=\count137
+\c@NAT@ctr=\count139
 )
 (/usr/share/texmf/tex/latex/multibib/multibib.sty
 Package: multibib 2004/01/28 v1.3 Multiple bibliographies for one document.
-\mb@biblabelwidth=\count138
+\mb@biblabelwidth=\count140
 ))
 (/usr/share/texmf/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
 \@linkdim=\dimen145
-\Hy@linkcounter=\count139
-\Hy@pagecounter=\count140
+\Hy@linkcounter=\count141
+\Hy@pagecounter=\count142
 
 (/usr/share/texmf/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
@@ -598,7 +605,7 @@ Package hyperref Info: Backreferencing OFF on input line 2308.
 Implicit mode ON; LaTeX internals redefined
 Package hyperref Info: Bookmarks ON on input line 2444.
 LaTeX Info: Redefining \url on input line 2599.
-\Fld@menulength=\count141
+\Fld@menulength=\count143
 \Field@Width=\dimen146
 \Fld@charsize=\dimen147
 \Choice@toks=\toks32
@@ -608,52 +615,44 @@ Package hyperref Info: Link nesting OFF on input line 3107.
 Package hyperref Info: Hyper index ON on input line 3110.
 Package hyperref Info: backreferencing OFF on input line 3117.
 Package hyperref Info: Link coloring OFF on input line 3122.
-\Hy@abspage=\count142
-\c@Item=\count143
+\Hy@abspage=\count144
+\c@Item=\count145
 )
 *hyperref using driver hpdftex*
 (/usr/share/texmf/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
-\Fld@listcount=\count144
-)
-\c@myequations=\count145
-\cftbeforemyequationsskip=\skip121
-\cftmyequationsindent=\skip122
-\cftmyequationsnumwidth=\skip123
-\c@equdepth=\count146
-\cftbeforeequtitleskip=\skip124
-\cftafterequtitleskip=\skip125
- (./usmthesis.aux
+\Fld@listcount=\count146
+) (./usmthesis.aux
 (./acknowledgements.aux) (./loa.aux) (./chap-intro.aux) (./chap-literature.aux)
 (./chap-methodology.aux) (./chap-discussion.aux) (./chap-conclusion.aux)
 (./app-data.aux))
 \openout1 = `usmthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/lmr/m/n on input line 95.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/lmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 84.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 95.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 84.
 
 (/usr/share/texmf/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 -------------------- Geometry parameters
 paper: a4paper
 landscape: --
@@ -716,23 +715,23 @@ LaTeX Info: Redefining \selectfont on input line 125.
 \RaggedRightParindent=\skip138
 \JustifyingParindent=\skip139
 )
-Package caption Info: float package v1.3 (or newer) detected on input line 95.
+Package caption Info: float package v1.3 (or newer) detected on input line 84.
 Package caption Info: hyperref package v6.74m (or newer) detected on input line
- 95.
-Package caption Info: listings package v1.2 (or newer) detected on input line 9
-5.
-Package caption Info: rotating package v2.0 (or newer) detected on input line 9
-5.
-Package caption Info: subref 1.2 or 1.3 detected on input line 95.
-LaTeX Info: Redefining \subref on input line 95.
+ 84.
+Package caption Info: listings package v1.2 (or newer) detected on input line 8
+4.
+Package caption Info: rotating package v2.0 (or newer) detected on input line 8
+4.
+Package caption Info: subref 1.2 or 1.3 detected on input line 84.
+LaTeX Info: Redefining \subref on input line 84.
 
 
 Package frenchb.ldf Warning: The definition of \@makecaption has been changed,
 (frenchb.ldf)                frenchb will NOT customize it;
-(frenchb.ldf)                reported on input line 95.
+(frenchb.ldf)                reported on input line 84.
 
-LaTeX Info: Redefining \dots on input line 95.
-Package hyperref Info: Link coloring OFF on input line 95.
+LaTeX Info: Redefining \dots on input line 84.
+Package hyperref Info: Link coloring OFF on input line 84.
 (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
@@ -741,33 +740,33 @@ Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
 \c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
  (./usmthesis.out)
 (./usmthesis.out)
 \@outlinefile=\write4
 \openout4 = `usmthesis.out'.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
  [1
 
 
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
 
-<images/usm_logo.jpg, id=113, 322.20375pt x 113.67468pt>
+<images/usm_logo.jpg, id=117, 322.20375pt x 113.67468pt>
 File: images/usm_logo.jpg Graphic file (type jpg)
 
 <use images/usm_logo.jpg>pdfTeX warning (ext4): destination with the same ident
 ifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126 \makecover
+l.117 \makecover
                  [1 <./images/usm_logo.jpg>]
 \openout2 = `acknowledgements.aux'.
 
@@ -815,7 +814,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 ]
-Overfull \hbox (0.16255pt too wide) detected at line 34
+Overfull \hbox (0.16255pt too wide) detected at line 35
 \T1/ptm/m/n/12 APPENDIX A --  
  []
 
@@ -901,11 +900,11 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 13.
  (/usr/share/texmf/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [2]
-<images/signal.jpg, id=212, 478.03593pt x 644.4075pt>
+<images/signal.jpg, id=231, 478.03593pt x 644.4075pt>
 File: images/signal.jpg Graphic file (type jpg)
  <use images/signal.jpg>
 [3] [4 <./images/signal.jpg>] [5]
-<images/phase_current.jpg, id=227, 500.62032pt x 249.18094pt>
+<images/phase_current.jpg, id=251, 500.62032pt x 249.18094pt>
 File: images/phase_current.jpg Graphic file (type jpg)
 
 <use images/phase_current.jpg> [6 <./images/phase_current.jpg>] [7]) [8]
@@ -918,12 +917,28 @@ Chapter 2.
 
 
 
-] [10] [11]) [12]
+] [10] [11] [12]
+<images/honda_supervision.jpg, id=323, 1070.49937pt x 547.2947pt>
+File: images/honda_supervision.jpg Graphic file (type jpg)
+
+<use images/honda_supervision.jpg>
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 46--49
+ [][] 
+ []
+
+[13 <./images/honda_supervision.jpg>]
+<images/honda_flowchart.jpg, id=334, 725.71124pt x 762.59906pt>
+File: images/honda_flowchart.jpg Graphic file (type jpg)
+
+<use images/honda_flowchart.jpg> [14 <./images/honda_flowchart.jpg>]) [15
+
+]
 \openout2 = `chap-methodology.aux'.
 
- (./chap-methodology.tex
+
+(./chap-methodology.tex
 Chapter 3.
-) [13
+) [16
 
 
 
@@ -932,7 +947,7 @@ Chapter 3.
 
  (./chap-discussion.tex
 Chapter 4.
-) [14
+) [17
 
 
 
@@ -941,44 +956,44 @@ Chapter 4.
 
  (./chap-conclusion.tex
 Chapter 5.
-) [15
+) [18
 
 
 
-]) (./usmthesis.bbl) [16
+]) (./usmthesis.bbl [19
 
 
-]
+]) [20]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 222.
- (./appendices.tex [17
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 211.
+ (./appendices.tex [21
 
 ]
 \openout2 = `app-data.aux'.
 
  (./app-data.tex
 Appendix A.
-) [18
+) [22
 
 
 ]) (./usmthesis.aux (./acknowledgements.aux) (./loa.aux) (./chap-intro.aux) (./
 chap-literature.aux) (./chap-methodology.aux) (./chap-discussion.aux)
 (./chap-conclusion.aux) (./app-data.aux)) ) 
 Here is how much of TeX's memory you used:
- 9352 strings out of 256216
- 128143 string characters out of 1917072
- 204830 words of memory out of 1500000
- 12255 multiletter control sequences out of 10000+200000
+ 9382 strings out of 256216
+ 128658 string characters out of 1917072
+ 206600 words of memory out of 1500000
+ 12271 multiletter control sequences out of 10000+200000
  46464 words of font info for 68 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 50i,12n,45p,905b,528s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 50i,12n,45p,905b,565s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/ba
 se/8r.enc}</usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/
 fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on usmthesis.pdf (30 pages, 204767 bytes).
+Output written on usmthesis.pdf (34 pages, 505305 bytes).
 PDF statistics:
- 338 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 131072)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 417 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 131072)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 

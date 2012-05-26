@@ -1,15 +1,15 @@
 \select@language {english}
 \contentsline {chapter}{Acknowledgements}{ii}{chapter*.1}
-\contentsline {chapter}{Table of Contents}{iii}{section*.3}
+\contentsline {chapter}{Contents}{iii}{section*.3}
 \contentsline {chapter}{List of Tables}{v}{section*.5}
 \contentsline {chapter}{List of Figures}{vi}{section*.7}
-\contentsline {chapter}{List of Abbreviations}{viii}{chapter*.9}
-\contentsline {chapter}{List of Symbols}{ix}{chapter*.10}
-\contentsline {chapter}{List of Equations}{viii}{chapter*.8}
+\contentsline {chapter}{List of Equations}{vii}{section*.9}
+\contentsline {chapter}{List of Abbreviations}{viii}{chapter*.10}
+\contentsline {chapter}{List of Symbols}{ix}{chapter*.11}
 \select@language {bahasa}
-\contentsline {chapter}{Abstrak}{x}{chapter*.11}
+\contentsline {chapter}{Abstrak}{x}{chapter*.12}
 \select@language {english}
-\contentsline {chapter}{Abstract}{xi}{chapter*.12}
+\contentsline {chapter}{Abstract}{xi}{chapter*.13}
 \setlength {\cftbeforechapskip }{2.5pc}
 \cftpagenumbersoff {chap}
 \contentsline {chapter}{\numberline {1}\uppercase {Introduction}}{1}{chapter.1}
@@ -21,14 +21,15 @@
 \contentsline {chapter}{\numberline {2}\uppercase {Literature Review}}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Torque Ripple}{9}{section.2.2}
-\contentsline {section}{\numberline {2.3}Driving Strategy}{11}{section.2.3}
-\contentsline {chapter}{\numberline {3}\uppercase {Methodology}}{13}{chapter.3}
-\contentsline {chapter}{\numberline {4}\uppercase {Result and Discussion}}{14}{chapter.4}
-\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{15}{chapter.5}
+\contentsline {section}{\numberline {2.3}Driving Strategy}{12}{section.2.3}
+\contentsline {section}{\numberline {2.4}Summary}{15}{section.2.4}
+\contentsline {chapter}{\numberline {3}\uppercase {Methodology}}{16}{chapter.3}
+\contentsline {chapter}{\numberline {4}\uppercase {Result and Discussion}}{17}{chapter.4}
+\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{18}{chapter.5}
 \cftpagenumberson {chap}
-\contentsline {chapter}{References}{16}{section*.14}
+\contentsline {chapter}{References}{19}{section*.15}
 \setlength {\cftbeforechapskip }{1pc}
-\contentsline {part}{\uppercase {Appendices}}{17}{section*.15}
+\contentsline {part}{\uppercase {Appendices}}{21}{section*.16}
 \renewcommand {\chaptername }{Appendix}
 \setlength \cftchapnumwidth {7pc}
-\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{18}{appendix.A}
+\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{22}{appendix.A}

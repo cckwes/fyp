@@ -23,4 +23,42 @@ Leila Parsa and Lei Hao \citep{04435197} studied the effect of magnetization, wi
 
 Michiel Koot \textit{et al.} \citep{01433223} showed the work of analysing the engine, battery and alternator of an Hybrid Electric Vehicle (HEV). After the value of the parameters of an HEV is discretized, Dynamic Programming (DP) and Quadratic Programming (QP) techniques are used for the control strategy of the HEV.
 
+Phil Howlett \textit{et al.} \citep{5095} discussed the making of an optimal strategy for a solar powered vehicle on a level road for participation in the World Solar Challenge. The draft strategy pointed out in the paper is:
 
+\begin{itemize}
+	\item{Accelerate using maximum available power.}
+	\item{Hold speed at a lower critical speed, V, until mid-morning.}
+	\item{Follow solar power up to an upper critical speed, W.}
+	\item{Hold speed W until mid-afternoon.}
+	\item{Follow solar power back down to the lower critical speed, V.}
+	\item{Hold speed V until late in the afternoon.}
+	\item{Follow solar power.}
+	\item{Apply full regenerative braking, if available, or coast.}
+	\item{Apply full regenerative braking and mechanical braking.}
+\end{itemize}
+
+The mathematical model for the vehicle is built from the power flow from the solar panel to the traction system, from the battery to the traction system, from the solar panel to the battery and from the traction system to the battery. Vehicle dynamics, for instance, the rolling resistance and drag force were also modelled. Finally, the control strategy is made based on the mathematical model.
+
+The paper written by Yasuo Shimizu \textit{et al.} \citep{03894304} introduced 2 system which is the Supervision Support System as shown in figure \ref{im:honda_supervision} and the Cruising Simulation as shown in figure \ref{im:honda_flowchart}. The Supervision Support System is a system where a control centre vehicle is followed behind the solar vehicle and collect all the data from the solar vehicle, the data is logged and calculated and the instruction is sent via transmitter back to the solar vehicle and displayed on the panel meters
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=6in]{images/honda_supervision.jpg}
+	\caption{Supervision Support System hardware configuration schematic \citep{03894304}}
+	\label{im:honda_supervision}
+\end{figure}
+
+The Cruising Simulation on the other hand is a simulation proccess where the condition component is set, for example, the environment condition settings, the vehicle specification settings and etc. Next, the result is calculated through calculation of every single condition, for instance, the reading of geographical data, the calculation of motor power and etc. By utilising the Supervision Support System and the Cruising Simulation, the on-road calculation could be done so that the power or speed control strategy can be set and implemented when the solar vehicle is running.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=5.5in]{images/honda_flowchart.jpg}
+	\caption{Flowchart of the Cruising Simulation \citep{03894304}}
+	\label{im:honda_flowchart}
+\end{figure}\clearpage
+
+Y.V. Bocharnikov \textit{et al.} \citep{04295937} researched on the optimal driving strategy for suburban railways. The strategy is constrained by two conditions which are energy saving and running fast so that it would not misses the schedule. There are 3 components for suburban railways which are the Motoring(M), Coasting(C) and Braking(B). By building mathematical model based on this 3 components and using fuzzy logic for optimization of energy function, a strategy with balance between the energy saving and running fast is achieved.
+
+Peter Pudney and Phil Howlett \cite{s03342} described building of strategies for a train journey which have speed limits at certain part of the journey. The method used in this paper is to build mathematical model for both the vehicle model and the journey model. Then, the speed profile was build and the optimal driving strategies was derived using mathematical models.
+
+\section{Summary}

@@ -69,7 +69,7 @@
 	author = "A., Vanisri and N., Devarajan",
 	journal = "European Journal of Scientific Research",
 	number = "4",
-	pages = "481-489",
+	pages = "481--489",
 	publisher = "EuroJournals Publishing, Inc.",
 	title = "{Torque Ripple Minimization in Indirect Position Detection of Permanent Magnet Brushless DC Motor}",
 	volume = "65",
@@ -85,5 +85,24 @@
 	title = "{Interior Permanent Magenet Motors With Reduced Torque Pulsation}",
 	volume = "55",
 	year = "2008"
+}
+
+@article{01433223,
+	author = "Koot, Michiel and Kessels, J. T. B. A. and de Jager, Bram and Heemels, W. P. M. H. and van den Bosch, P. P. J. and Steinbuch, Maarten",
+	journal = "IEEE Transactions on Vehicular Technology",
+	month = may,
+	number = "3",
+	pages = "771-782",
+	title = "{Energy Management Strategies for Vehicular Electric Power Systems}",
+	volume = "54",
+	year = "2005"
+}
+
+@article{5095,
+	author = "Howlett, Phil and Pudney, Peter and Tarnopolskaya, Tania and Gates, David",
+	journal = "IMA Journal of Mathematics Applied in Business \& Industry",
+	pages = "59-81",
+	title = "{Optimal Driving Strategy for a Solar Car on a Level Road}",
+	year = "1997"
 }
 

@@ -1,54 +1,86 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{an885}
-P.~Yedamale, {\em {Brushless DC (BLDC) Motor Fundamentals}}.
-\newblock Microchip Technology Inc., 2003.
+\bibitem[A. and N., 2011]{1450216}
+A., V. and N., D. (2011).
+\newblock {Torque Ripple Minimization in Indirect Position Detection of
+  Permanent Magnet Brushless DC Motor}.
+\newblock {\em European Journal of Scientific Research}, 65(4):481--489.
 
-\bibitem{7648}
-W.~A. Salah, D.~Ishak, and K.~J. Hammadi, ``{PWM Switching Strategy For Torque
-  Ripple Minimization in BLDC Motor},'' {\em Journal of Electrical
-  Engineering}, vol.~62, no.~3, pp.~141--146, 2011.
+\bibitem[Bocharnikov et~al., 2007]{04295937}
+Bocharnikov, Y., Tobias, A., Roberts, C., Hillmansen, S., and Goodman, C.
+  (2007).
+\newblock {Optimal Driving Strategy for Traction Energy Saving on DC Suburban
+  Railways}.
+\newblock {\em IET Electr. Power Appl.}, 19(5):675--682.
 
-\bibitem{00824132}
-S.~J. Park, H.~W. Park, {\em et~al.}, ``{A New Approach for
-  Minimum-Torque-Ripple Maximum-Efficiency Control of BLDC Motor},'' {\em IEEE
-  Transactions on Industrial Electronics}, vol.~47, pp.~109--114, Feb. 2000.
+\bibitem[Enany et~al., 2010]{285}
+Enany, M.~A., Elshewy, H.~M., and Abdel-kader, F.~E. (2010).
+\newblock {Brushless DC Motor Performance Improvement through Switch-on and
+  Switch-off Angles Control}.
+\newblock {\em Proceedings of the 14th International Middle East Power System
+  Conference (MEPCON'10)}, pages 786--790.
 
-\bibitem{00976016}
-T.-S. Kim, S.-C. Ahn, and D.-S. Hyun, ``{A New Current Control Algorithm for
-  Torque Ripple Reduction of BLDC Motors},'' {\em IECON'01: The 27th Annual
-  Conference of the IEEE Industrial Electronics Society}, pp.~521--526, 2001.
+\bibitem[Howlett et~al., 1997]{5095}
+Howlett, P., Pudney, P., Tarnopolskaya, T., and Gates, D. (1997).
+\newblock {Optimal Driving Strategy for a Solar Car on a Level Road}.
+\newblock {\em IMA Journal of Mathematics Applied in Business \& Industry},
+  pages 59--81.
 
-\bibitem{01608454}
-K.-Y. Nam, W.-T. Lee, C.-M. Lee, and J.-P. Hong, ``{Reducing Torque Ripple of
-  Brushless DC Motor by Varying Input Voltage},'' {\em IEEE Transactions on
-  Magnetics}, vol.~42, pp.~1307--1310, Apr. 2006.
+\bibitem[Jang and Lee, 2006]{08305}
+Jang, G.~H. and Lee, C.~J. (2006).
+\newblock {Design and Control of the Phase Current of a Brushless DC Motor to
+  Eliminate Cogging Torque}.
+\newblock {\em Journal of Applied Physics}, page~3.
 
-\bibitem{285}
-M.~A. Enany, H.~M. Elshewy, and F.~E. Abdel-kader, ``{Brushless DC Motor
-  Performance Improvement through Switch-on and Switch-off Angles Control},''
-  {\em Proceedings of the 14th International Middle East Power System
-  Conference (MEPCON'10)}, pp.~786--790, Dec. 2010.
+\bibitem[Kim et~al., 2001]{00976016}
+Kim, T.-S., Ahn, S.-C., and Hyun, D.-S. (2001).
+\newblock {A New Current Control Algorithm for Torque Ripple Reduction of BLDC
+  Motors}.
+\newblock {\em IECON'01: The 27th Annual Conference of the IEEE Industrial
+  Electronics Society}, pages 521--526.
 
-\bibitem{08305}
-G.~H. Jang and C.~J. Lee, ``{Design and Control of the Phase Current of a
-  Brushless DC Motor to Eliminate Cogging Torque},'' {\em Journal of Applied
-  Physics}, p.~3, 2006.
+\bibitem[Koot et~al., 2005]{01433223}
+Koot, M., Kessels, J. T. B.~A., de~Jager, B., Heemels, W. P. M.~H., van~den
+  Bosch, P. P.~J., and Steinbuch, M. (2005).
+\newblock {Energy Management Strategies for Vehicular Electric Power Systems}.
+\newblock {\em IEEE Transactions on Vehicular Technology}, 54(3):771--782.
 
-\bibitem{1450216}
-V.~A. and D.~N., ``{Torque Ripple Minimization in Indirect Position Detection
-  of Permanent Magnet Brushless DC Motor},'' {\em European Journal of
-  Scientific Research}, vol.~65, no.~4, pp.~481--489, 2011.
+\bibitem[Nam et~al., 2006]{01608454}
+Nam, K.-Y., Lee, W.-T., Lee, C.-M., and Hong, J.-P. (2006).
+\newblock {Reducing Torque Ripple of Brushless DC Motor by Varying Input
+  Voltage}.
+\newblock {\em IEEE Transactions on Magnetics}, 42(4):1307--1310.
 
-\bibitem{04435197}
-L.~Parsa and L.~Hao, ``{Interior Permanent Magenet Motors With Reduced Torque
-  Pulsation},'' {\em IEEE Transactions on Industrial Electronics}, vol.~55,
-  pp.~602--609, Feb. 2008.
+\bibitem[Park et~al., 2000]{00824132}
+Park, S.~J., Park, H.~W., et~al. (2000).
+\newblock {A New Approach for Minimum-Torque-Ripple Maximum-Efficiency Control
+  of BLDC Motor}.
+\newblock {\em IEEE Transactions on Industrial Electronics}, 47(1):109--114.
 
-\bibitem{01433223}
-M.~Koot, J.~T. B.~A. Kessels, B.~de~Jager, W.~P. M.~H. Heemels, P.~P.~J.
-  van~den Bosch, and M.~Steinbuch, ``{Energy Management Strategies for
-  Vehicular Electric Power Systems},'' {\em IEEE Transactions on Vehicular
-  Technology}, vol.~54, pp.~771--782, May 2005.
+\bibitem[Parsa and Hao, 2008]{04435197}
+Parsa, L. and Hao, L. (2008).
+\newblock {Interior Permanent Magenet Motors With Reduced Torque Pulsation}.
+\newblock {\em IEEE Transactions on Industrial Electronics}, 55(2):602--609.
+
+\bibitem[Pudney and Howlett, 1994]{s03342}
+Pudney, P. and Howlett, P. (1994).
+\newblock {Optimal Driving Strategies for a Train Journey with Speed Limits}.
+\newblock {\em J. Austral. Math. Soc. Ser. B}, 36:38--49.
+
+\bibitem[Salah et~al., 2011]{7648}
+Salah, W.~A., Ishak, D., and Hammadi, K.~J. (2011).
+\newblock {PWM Switching Strategy For Torque Ripple Minimization in BLDC
+  Motor}.
+\newblock {\em Journal of Electrical Engineering}, 62(3):141--146.
+
+\bibitem[Shimizu et~al., 1998]{03894304}
+Shimizu, Y., Komatsu, Y., Torii, M., and Takamuro, M. (1998).
+\newblock {Solar Car Cruising Strategy and Its Supporting System}.
+\newblock {\em JSAE Review}, 19:143--149.
+
+\bibitem[Yedamale, 2003]{an885}
+Yedamale, P. (2003).
+\newblock {\em {Brushless DC (BLDC) Motor Fundamentals}}.
+\newblock Microchip Technology Inc.
 
 \end{thebibliography}

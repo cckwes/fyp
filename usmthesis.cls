@@ -207,6 +207,15 @@
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
 \RequirePackage[titles,subfigure]{tocloft}
+\usepackage{amsmath}
+
+\newcommand{\listequationsname}{List of Equations}
+\newlistof[chapter]{myequations}{equ}{\listequationsname}
+\newcommand{\myequations}[1]{
+\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+\newcommand\listofequations{\begingroup
+\tocfile{\listequationsname}{equ}
+\endgroup}
 
 % Introducing: List of Plates
 \newcommand{\listplatename}{List of Plates}
