@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  27 MAY 2012 16:53
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  27 MAY 2012 20:58
 entering extended mode
  %&-line parsing enabled.
 **usmthesis.tex
@@ -900,11 +900,11 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 13.
  (/usr/share/texmf/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [2]
-<images/signal.jpg, id=259, 478.03593pt x 644.4075pt>
+<images/signal.jpg, id=262, 478.03593pt x 644.4075pt>
 File: images/signal.jpg Graphic file (type jpg)
  <use images/signal.jpg>
 [3] [4 <./images/signal.jpg>] [5]
-<images/phase_current.jpg, id=279, 500.62032pt x 249.18094pt>
+<images/phase_current.jpg, id=282, 500.62032pt x 249.18094pt>
 File: images/phase_current.jpg Graphic file (type jpg)
 
 <use images/phase_current.jpg> [6 <./images/phase_current.jpg>] [7]) [8]
@@ -918,7 +918,7 @@ Chapter 2.
 
 
 ] [10] [11] [12]
-<images/honda_supervision.jpg, id=351, 1070.49937pt x 547.2947pt>
+<images/honda_supervision.jpg, id=354, 1070.49937pt x 547.2947pt>
 File: images/honda_supervision.jpg Graphic file (type jpg)
 
 <use images/honda_supervision.jpg>
@@ -927,7 +927,7 @@ Overfull \hbox (15.36447pt too wide) in paragraph at lines 46--49
  []
 
 [13 <./images/honda_supervision.jpg>]
-<images/honda_flowchart.jpg, id=362, 725.71124pt x 762.59906pt>
+<images/honda_flowchart.jpg, id=365, 725.71124pt x 762.59906pt>
 File: images/honda_flowchart.jpg Graphic file (type jpg)
 
 <use images/honda_flowchart.jpg> [14 <./images/honda_flowchart.jpg>]) [15
@@ -942,20 +942,21 @@ Chapter 3.
 
 
 
-] [17] <images/hall_effect_signals.jpg, id=392, 389.95688pt x 246.9225pt>
+] [17] <images/hall_effect_signals.jpg, id=395, 389.95688pt x 246.9225pt>
 File: images/hall_effect_signals.jpg Graphic file (type jpg)
 
 <use images/hall_effect_signals.jpg>
-<images/hall_sensor_circuit.png, id=397, 380.92313pt x 269.50688pt>
+<images/hall_sensor_circuit.png, id=400, 380.92313pt x 269.50688pt>
 File: images/hall_sensor_circuit.png Graphic file (type png)
 
 <use images/hall_sensor_circuit.png> [18] [19 <./images/hall_effect_signals.jpg
-> <./images/hall_sensor_circuit.png (PNG copy)>]) [20]
+> <./images/hall_sensor_circuit.png (PNG copy)>] [20] [21]) [22]
 \openout2 = `chap-discussion.aux'.
 
- (./chap-discussion.tex
+
+(./chap-discussion.tex
 Chapter 4.
-) [21
+) [23
 
 
 
@@ -964,7 +965,7 @@ Chapter 4.
 
  (./chap-conclusion.tex
 Chapter 5.
-) [22
+) [24
 
 
 
@@ -977,30 +978,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--70
 []\T1/ptm/m/n/12 Point, W. C. (1999).  Un-der-stand-ing Hall Ef-fect Sen-sors.
  []
 
-[23
+[25
 
 
-]) [24]
+]) [26]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 211.
- (./appendices.tex [25
+ (./appendices.tex [27
 
 ]
 \openout2 = `app-data.aux'.
 
  (./app-data.tex
 Appendix A.
-) [26
+) [28
 
 
 ]) (./usmthesis.aux (./acknowledgements.aux) (./loa.aux) (./chap-intro.aux) (./
 chap-literature.aux) (./chap-methodology.aux) (./chap-discussion.aux)
 (./chap-conclusion.aux) (./app-data.aux)) ) 
 Here is how much of TeX's memory you used:
- 9451 strings out of 256216
- 129766 string characters out of 1917072
+ 9457 strings out of 256216
+ 129816 string characters out of 1917072
  206600 words of memory out of 1500000
- 12320 multiletter control sequences out of 10000+200000
+ 12322 multiletter control sequences out of 10000+200000
  50074 words of font info for 71 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  50i,12n,45p,905b,569s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -1010,9 +1011,9 @@ fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texmf/fonts/type1/urw/symbol/u
 syr.pfb></usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmri8a.
 pfb>
-Output written on usmthesis.pdf (38 pages, 586535 bytes).
+Output written on usmthesis.pdf (40 pages, 589704 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 131072)
+ 504 PDF objects out of 1000 (max. 8388607)
+ 108 named destinations out of 1000 (max. 131072)
  284 words of extra memory for PDF output out of 10000 (max. 10000000)
 

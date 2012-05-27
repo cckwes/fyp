@@ -64,4 +64,24 @@ After the voltage input ports is identified, the 3 hall effect sensors output si
 After the hall effect sensors output port has been identified, the probes of the multimeter is plugged into the first hall effect sensor output port and the ground port. The wheel is rotated by hand over a precise 1 revolution and the number of square wave over a wheel revolution is measured and the signal output at each 10 \textdegree is measured and recorded. The same procedures apply to the other 2 hall effect sensors output ports. A graph of hall effect sensors signals versus the angle is then plot.
 
 \section{Measurement System}
+After the primary signal (speed and voltage) is identified, a measurement that has the ability to measure, display and log the parameters need to be built. The purpose of building the measurement system is to
+
+\begin{itemize}
+	\item{Measure and log the power consumption of the electric vehicle so that the mileage of the vehicle can be known.}
+	\item{Measure and log the power consumtion at each vehicle on-road speed.}
+	\item{Building a speed and power consumption display for the electric vehicle.}
+\end{itemize}
+
+For measuring the power input, based on equation \ref{eq:powerInput}, the input voltage and input current need to be measured. Apart from measuring the power input to the electric vehicle, the data output from the measurement system can also be used to calculate the instantaneous deceleration of the vehicle when it's cruising, when it's braking with regenerative braking and when it's braking with regenerative and mechanical braking.
+
+\begin{equation}
+	\label{eq:powerInput}
+	\text{\myequations{Power Input}}
+	P_{input} = V_{input}I_{input}
+\end{equation}
+
+The measurement system uses a circuit with microcontroller, crystal and I/O pins, which is the Arduino Mega 2560 board for processing the signal from the controller circuit, calculate the real value based on the signal, log the data into a SD card through the ITDB02 shield and display the speed and power consumption value through the ITDB02-3.2(WC) LCD screen.
+
+Since the microcontroller board can only accept I/O less than 5V but more than 0V but the battery voltage is in the range of 48V - 60V and the speed signal from the controller is negative voltage, hence an intermediate circuit has to be built so that the signal can be read by the microcontroller.
+
 
