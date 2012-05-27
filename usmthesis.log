@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  26 MAY 2012 15:49
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  27 MAY 2012 16:53
 entering extended mode
  %&-line parsing enabled.
 **usmthesis.tex
@@ -759,7 +759,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
 
-<images/usm_logo.jpg, id=117, 322.20375pt x 113.67468pt>
+<images/usm_logo.jpg, id=129, 322.20375pt x 113.67468pt>
 File: images/usm_logo.jpg Graphic file (type jpg)
 
 <use images/usm_logo.jpg>pdfTeX warning (ext4): destination with the same ident
@@ -814,7 +814,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 
 ]
-Overfull \hbox (0.16255pt too wide) detected at line 35
+Overfull \hbox (0.16255pt too wide) detected at line 38
 \T1/ptm/m/n/12 APPENDIX A --  
  []
 
@@ -900,11 +900,11 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 13.
  (/usr/share/texmf/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [2]
-<images/signal.jpg, id=231, 478.03593pt x 644.4075pt>
+<images/signal.jpg, id=259, 478.03593pt x 644.4075pt>
 File: images/signal.jpg Graphic file (type jpg)
  <use images/signal.jpg>
 [3] [4 <./images/signal.jpg>] [5]
-<images/phase_current.jpg, id=251, 500.62032pt x 249.18094pt>
+<images/phase_current.jpg, id=279, 500.62032pt x 249.18094pt>
 File: images/phase_current.jpg Graphic file (type jpg)
 
 <use images/phase_current.jpg> [6 <./images/phase_current.jpg>] [7]) [8]
@@ -918,7 +918,7 @@ Chapter 2.
 
 
 ] [10] [11] [12]
-<images/honda_supervision.jpg, id=323, 1070.49937pt x 547.2947pt>
+<images/honda_supervision.jpg, id=351, 1070.49937pt x 547.2947pt>
 File: images/honda_supervision.jpg Graphic file (type jpg)
 
 <use images/honda_supervision.jpg>
@@ -927,7 +927,7 @@ Overfull \hbox (15.36447pt too wide) in paragraph at lines 46--49
  []
 
 [13 <./images/honda_supervision.jpg>]
-<images/honda_flowchart.jpg, id=334, 725.71124pt x 762.59906pt>
+<images/honda_flowchart.jpg, id=362, 725.71124pt x 762.59906pt>
 File: images/honda_flowchart.jpg Graphic file (type jpg)
 
 <use images/honda_flowchart.jpg> [14 <./images/honda_flowchart.jpg>]) [15
@@ -938,16 +938,24 @@ File: images/honda_flowchart.jpg Graphic file (type jpg)
 
 (./chap-methodology.tex
 Chapter 3.
-) [16
+[16
 
 
 
-]
+] [17] <images/hall_effect_signals.jpg, id=392, 389.95688pt x 246.9225pt>
+File: images/hall_effect_signals.jpg Graphic file (type jpg)
+
+<use images/hall_effect_signals.jpg>
+<images/hall_sensor_circuit.png, id=397, 380.92313pt x 269.50688pt>
+File: images/hall_sensor_circuit.png Graphic file (type png)
+
+<use images/hall_sensor_circuit.png> [18] [19 <./images/hall_effect_signals.jpg
+> <./images/hall_sensor_circuit.png (PNG copy)>]) [20]
 \openout2 = `chap-discussion.aux'.
 
  (./chap-discussion.tex
 Chapter 4.
-) [17
+) [21
 
 
 
@@ -956,44 +964,55 @@ Chapter 4.
 
  (./chap-conclusion.tex
 Chapter 5.
-) [18
+) [22
 
 
 
-]) (./usmthesis.bbl [19
+]) (./usmthesis.bbl
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 69.
+ (/usr/share/texmf/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 66--70
+[]\T1/ptm/m/n/12 Point, W. C. (1999).  Un-der-stand-ing Hall Ef-fect Sen-sors.
+ []
+
+[23
 
 
-]) [20]
+]) [24]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 211.
- (./appendices.tex [21
+ (./appendices.tex [25
 
 ]
 \openout2 = `app-data.aux'.
 
  (./app-data.tex
 Appendix A.
-) [22
+) [26
 
 
 ]) (./usmthesis.aux (./acknowledgements.aux) (./loa.aux) (./chap-intro.aux) (./
 chap-literature.aux) (./chap-methodology.aux) (./chap-discussion.aux)
 (./chap-conclusion.aux) (./app-data.aux)) ) 
 Here is how much of TeX's memory you used:
- 9382 strings out of 256216
- 128658 string characters out of 1917072
+ 9451 strings out of 256216
+ 129766 string characters out of 1917072
  206600 words of memory out of 1500000
- 12271 multiletter control sequences out of 10000+200000
- 46464 words of font info for 68 fonts, out of 1200000 for 2000
+ 12320 multiletter control sequences out of 10000+200000
+ 50074 words of font info for 71 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 50i,12n,45p,905b,565s stack positions out of 5000i,500n,6000p,200000b,15000s
+ 50i,12n,45p,905b,569s stack positions out of 5000i,500n,6000p,200000b,15000s
 {/usr/share/texmf/fonts/enc/dvips/ba
-se/8r.enc}</usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/
-fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmri8
-a.pfb>
-Output written on usmthesis.pdf (34 pages, 505305 bytes).
+se/8r.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/
+fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texmf/fonts/type1/urw/symbol/u
+syr.pfb></usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/fo
+nts/type1/urw/times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmri8a.
+pfb>
+Output written on usmthesis.pdf (38 pages, 586535 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 131072)
- 250 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 131072)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 

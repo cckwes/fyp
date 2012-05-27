@@ -62,6 +62,12 @@ Parsa, L. and Hao, L. (2008).
 \newblock {Interior Permanent Magenet Motors With Reduced Torque Pulsation}.
 \newblock {\em IEEE Transactions on Industrial Electronics}, 55(2):602--609.
 
+\bibitem[Point, 1999]{counterpoint31}
+Point, W.~C. (1999).
+\newblock {Understanding Hall Effect Sensors}.
+\newblock
+  \texttt{http://www.wellsve.com/sft503/Counterpoint3\textunderscore1.pdf}.
+
 \bibitem[Pudney and Howlett, 1994]{s03342}
 Pudney, P. and Howlett, P. (1994).
 \newblock {Optimal Driving Strategies for a Train Journey with Speed Limits}.

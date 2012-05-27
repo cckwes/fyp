@@ -17,3 +17,17 @@
 		** compose a set of strategy for enhancing the mileage
 		** changes to the Cd, how and why? Retest, get the data for mileage improvement investigation
 		
+-methodology
+	*tapping the signal of the controller
+		** use what tool (multimeter)
+		** show the controller board photo, describe the photo, the port
+		** show the theory of hall effect sensor, signal for ex: analog/digital theory and then say how to find the signal using the theory
+	*building the measurement system for measuring vehicle performance
+		** show arduino
+		** show how it works, the spec of it
+		** show the theory, Pinput, Poutput and state why need those measurement
+	**develop the simulation
+		** show the theory of Cd, Crr and all those forces
+		** show the formulas
+		** show the track profile
+		** show the strategy, full throttle, cruise, and etc

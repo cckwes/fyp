@@ -92,7 +92,7 @@
 	journal = "IEEE Transactions on Vehicular Technology",
 	month = may,
 	number = "3",
-	pages = "771-782",
+	pages = "771--782",
 	title = "{Energy Management Strategies for Vehicular Electric Power Systems}",
 	volume = "54",
 	year = "2005"
@@ -101,8 +101,17 @@
 @article{5095,
 	author = "Howlett, Phil and Pudney, Peter and Tarnopolskaya, Tania and Gates, David",
 	journal = "IMA Journal of Mathematics Applied in Business \& Industry",
-	pages = "59-81",
+	pages = "59--81",
 	title = "{Optimal Driving Strategy for a Solar Car on a Level Road}",
 	year = "1997"
+}
+
+@article{03894304,
+	author = "Shimizu, Yasuo and Komatsu, Yasuyuki and Torii, Minoru and Takamuro, Masato",
+	journal = "JSAE Review",
+	pages = "143-149",
+	title = "{Solar Car Cruising Strategy and Its Supporting System}",
+	volume = "19",
+	year = "1998"
 }
 
