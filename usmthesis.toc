@@ -27,12 +27,12 @@
 \contentsline {section}{\numberline {3.1}Introduction}{16}{section.3.1}
 \contentsline {section}{\numberline {3.2}Signal Identification}{16}{section.3.2}
 \contentsline {section}{\numberline {3.3}Measurement System}{21}{section.3.3}
-\contentsline {chapter}{\numberline {4}\uppercase {Result and Discussion}}{23}{chapter.4}
-\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{24}{chapter.5}
+\contentsline {chapter}{\numberline {4}\uppercase {Result and Discussion}}{24}{chapter.4}
+\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{25}{chapter.5}
 \cftpagenumberson {chap}
-\contentsline {chapter}{References}{25}{section*.15}
+\contentsline {chapter}{References}{26}{section*.15}
 \setlength {\cftbeforechapskip }{1pc}
-\contentsline {part}{\uppercase {Appendices}}{27}{section*.16}
+\contentsline {part}{\uppercase {Appendices}}{28}{section*.16}
 \renewcommand {\chaptername }{Appendix}
 \setlength \cftchapnumwidth {7pc}
-\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{28}{appendix.A}
+\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{29}{appendix.A}

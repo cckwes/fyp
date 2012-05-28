@@ -82,6 +82,33 @@ For measuring the power input, based on equation \ref{eq:powerInput}, the input 
 
 The measurement system uses a circuit with microcontroller, crystal and I/O pins, which is the Arduino Mega 2560 board for processing the signal from the controller circuit, calculate the real value based on the signal, log the data into a SD card through the ITDB02 shield and display the speed and power consumption value through the ITDB02-3.2(WC) LCD screen.
 
-Since the microcontroller board can only accept I/O less than 5V but more than 0V but the battery voltage is in the range of 48V - 60V and the speed signal from the controller is negative voltage, hence an intermediate circuit has to be built so that the signal can be read by the microcontroller.
+Since the microcontroller board can only accept I/O less than 5V and more than 0V but the battery voltage is in the range of 48V - 60V and the speed signal from the controller is negative voltage, hence an intermediate circuit has to be built so that the signal can be read by the microcontroller.
+
+For the voltage measurement circuit, a voltage divider is built for measuring the voltage of the battery. The voltage divider is a 2 resistor circuit that has same or different value of resistance for each of the resistor as shown in figure .... The voltage output, \textit{$V_{out}$} can be calculated using equation \ref{eq:voltageDivider} where \textit{R1} is the resistance for the first resistor, \textit{R2} is the resistance of the second resistor and \textit{$V_{in}$} is the voltage that need to be measured.
+
+\begin{equation}
+	\label{eq:voltageDivider}
+	\text{\myequations{Voltage Divider}}
+	V_{out} = \frac{V_{in}R2}{R1+R2}
+\end{equation}
+
+For measuring the speed, the same method which is the voltage divider is used with a little modification which replaces the \textit{$V_{in}$} to +5V and the ground to \textit{$V_{in}$} as shown in figure .... The \textit{$V_{out}$} for the modified voltage divider circuit could be calculated using equation ...
+
+\begin{equation}
+	\label{eq:voltageDividerInverse}
+	\text{\myequations{Voltage Divider for negative voltage}}
+	V_{out} = \frac{(5-V_{in})(R2)}{R1+R2} + V_{in}
+\end{equation}
+
+The resistance is selected based on the value of the negative voltage. For example, if the negative voltage is -5V, 1k\ohm \ resistor can be selected for both \textit{R1} and \textit{R2} which yields:
+
+\centerline{$V_{out} = \frac{(5+5)(1000)}{1000+1000} - 5$}
+\centerline{$V_{out} = 0V$}
 
 
+If the \textit{$V_{in}$} is 0V, \textit{$V_{out}$} will be:
+
+\centerline{$V_{out} = \frac{(5+0)(1000)}{1000+1000} - 0$}
+\centerline{$V_{out} = 2.5V$}
+
+Therefore, using a voltage divider, a negative voltage can be converted to positive voltage with minimum half of the original resolution.
