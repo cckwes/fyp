@@ -26,7 +26,6 @@
 		** show arduino
 		** show how it works, the spec of it
 		** show the theory, Pinput, Poutput and state why need those measurement
-		**calibrate the system
 	**develop the simulation
 		** show the theory of Cd, Crr and all those forces
 		** show the formulas

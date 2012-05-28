@@ -45,7 +45,7 @@ Figure \ref{im:hall_signal} shows the hall effect signals which is a square wave
 	\label{im:hall_circuit}
 \end{figure}
 
-There are 16 ports for signal and power from the controller to the speedometer as shown in figure .... The method for detecting the signal is trial and error and elimination. The ground port is found using the digital multimeter where the two probes of the digital multimeter is plug in to any 2 ports. The port where it is constantly lower voltage than the other 15 ports is the ground port.
+There are 16 ports for signal and power from the controller to the speedometer as shown in figure \textbf{...}. The method for detecting the signal is trial and error and elimination. The ground port is found using the digital multimeter where the two probes of the digital multimeter is plug in to any 2 ports. The port where it is constantly lower voltage than the other 15 ports is the ground port.
 
 After the ground port is found, the procedure above is repeated by testing the 15 ports by taking the ground port as reference. The voltage reading for those 15 ports is measured and recorded when the system is idle and when the motor is running. The ports for the following signal should be found:
 
@@ -55,7 +55,7 @@ After the ground port is found, the procedure above is repeated by testing the 1
 	\item{A constant voltage ~12V for powering the speedometer}
 \end{itemize}
 
-The hall effect sensor terminal is a 8 ports input/output as shown in figure ..... Again, the method for detecting the signal is trial and error with step by step elimination that is similar to the method used for identifying the speed signal at the controller circuit. The hall effect sensor circuit has the same circuit that is shown in figure \ref{im:hall_circuit} except that it has 3 sensors signal output instead of 1 output. 
+The hall effect sensor terminal is a 8 ports input/output as shown in figure \textbf{...}.. Again, the method for detecting the signal is trial and error with step by step elimination that is similar to the method used for identifying the speed signal at the controller circuit. The hall effect sensor circuit has the same circuit that is shown in figure \ref{im:hall_circuit} except that it has 3 sensors signal output instead of 1 output. 
 
 The hall effect sensor tapping is started with the identification of the voltage input to the hall effect sensors circuit. The voltage input to the circuit is 12V, hence, using the same method as speed signal detection, the digital multimeter's probe is plug into the any 2 ports of the 8 I/O ports within the terminal and detect the port with 12V reading.
 
@@ -84,7 +84,14 @@ The measurement system uses a circuit with microcontroller, crystal and I/O pins
 
 Since the microcontroller board can only accept I/O less than 5V and more than 0V but the battery voltage is in the range of 48V - 60V and the speed signal from the controller is negative voltage, hence an intermediate circuit has to be built so that the signal can be read by the microcontroller.
 
-For the voltage measurement circuit, a voltage divider is built for measuring the voltage of the battery. The voltage divider is a 2 resistor circuit that has same or different value of resistance for each of the resistor as shown in figure .... The voltage output, \textit{$V_{out}$} can be calculated using equation \ref{eq:voltageDivider} where \textit{R1} is the resistance for the first resistor, \textit{R2} is the resistance of the second resistor and \textit{$V_{in}$} is the voltage that need to be measured.
+For the voltage measurement circuit, a voltage divider is built for measuring the voltage of the battery. The voltage divider is a 2 resistor circuit that has same or different value of resistance for each of the resistor as shown in figure \ref{im:voltageDivider} The voltage output, \textit{$V_{out}$} can be calculated using equation \ref{eq:voltageDivider} where \textit{R1} is the resistance for the first resistor, \textit{R2} is the resistance of the second resistor and \textit{$V_{in}$} is the voltage that need to be measured.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=3in]{images/voltage_divider.jpg}
+	\caption{Voltage Divider}
+	\label{im:voltageDivider}
+\end{figure}
 
 \begin{equation}
 	\label{eq:voltageDivider}
@@ -92,7 +99,14 @@ For the voltage measurement circuit, a voltage divider is built for measuring th
 	V_{out} = \frac{V_{in}R2}{R1+R2}
 \end{equation}
 
-For measuring the speed, the same method which is the voltage divider is used with a little modification which replaces the \textit{$V_{in}$} to +5V and the ground to \textit{$V_{in}$} as shown in figure .... The \textit{$V_{out}$} for the modified voltage divider circuit could be calculated using equation ...
+For measuring the speed, the same method which is the voltage divider is used with a little modification which replaces the \textit{$V_{in}$} to +5V and the ground to \textit{$V_{in}$} as shown in figure \ref{im:voltageDividerInverse} The \textit{$V_{out}$} for the modified voltage divider circuit could be calculated using equation \ref{eq:voltageDividerInverse}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=3in]{images/voltage_divider_negative.jpg}
+	\caption{Voltage Divider for negative voltage}
+	\label{im:voltageDividerInverse}
+\end{figure}
 
 \begin{equation}
 	\label{eq:voltageDividerInverse}
@@ -112,3 +126,11 @@ If the \textit{$V_{in}$} is 0V, \textit{$V_{out}$} will be:
 \centerline{$V_{out} = 2.5V$}
 
 Therefore, using a voltage divider, a negative voltage can be converted to positive voltage with minimum half of the original resolution.
+
+The third parameter that need to be included in the measurement system is the input current. The input current is needed for calculating the input power to the electric vehicle and thus the overall vehicle mileage can be calculated. Since the rules of Shell Eco-Marathon restricted the nominal current input to the electric vehilce to be 60A and the peak current must be less than 150A, therefore a 200A current sensor is used.
+
+The current sensor used in detecting the input current is the ALLEGRO MICROSYSTEMS ACS758ECB-200B-PFF-T which is a 200A current sensor with 5 terminals and analog voltage output signal as shown in figure \textbf{....} In order for the microcontroller to measure the current, a current measuring circuit with the current sensor is built. The schematic of the current sensor circuit is shown in figure \textbf{....}
+
+After the prototype circuit of the current measuring circuit, the voltage measurement circuit and the speed voltage divider circuit is built, the 3 circuits is integrated into a single circuit and the microcontroller is program in a way that it can read, log and display the speed of the vehicle, the instantaneous current and voltage and the mileage covered every 100ms interval.
+
+\section{Vehicle Simulation}
