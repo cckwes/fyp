@@ -32,3 +32,20 @@
 		** show the formulas
 		** show the track profile
 		** show the strategy, full throttle, cruise, and etc
+
+-result and discussion
+	*signal identification
+	      ** identify ground by testing each of the 16 points against 15 other points while motor is static
+	      ** test the ground against the other 15 pins for identifying the battery voltage and supply voltage
+	      ** repeat the above procedure for unidentified ground by rev up the motor
+	      ** discuss why the identified port is the correct port
+	*measurement system
+	      ** draw the schematic of the whole system
+	      ** discuss why selected components are used
+	*simulation
+	      ** show simulation result for full throttle
+	      ** discuss the trend??
+	*strategies
+	      ** show simulation result for several strategies
+	      ** show improvement
+	      ** discuss improvement, why and how

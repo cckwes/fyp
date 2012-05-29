@@ -154,7 +154,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{setspace}
-\linespread{2}
+\linespread{1.6}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -190,10 +190,10 @@
 \titleformat{\chapter}[display]{\filcenter\bfseries}{\Large\MakeUppercase{\chaptername{} \thechapter}}{-1.7pc}{\begin{singlespace}\bfseries\LARGE\MakeUppercase}[\end{singlespace}]
 \titlespacing*{\chapter}{0pt}{*-4.5}{*6}
 % section e.g. 4.1
-\titleformat{\section}[hang]{\bfseries\Large}{\thesection}{6pt}{}
+\titleformat{\section}[hang]{\bfseries}{\thesection}{6pt}{}
 \titlespacing*{\section}{0pt}{*3}{*-3}
 % subsection e.g. 4.1.1
-\titleformat{\subsection}[hang]{\bfseries\large}{\thesubsection}{6pt}{}
+\titleformat{\subsection}[hang]{\bfseries}{\thesubsection}{6pt}{}
 \titlespacing*{\subsection}{0pt}{*3}{*-3}
 % subsubsection e.g. 4.1.1(a)
 \renewcommand\thesubsubsection{\thesubsection(\alph{subsubsection})}
@@ -212,7 +212,7 @@
 \newcommand{\listequationsname}{List of Equations}
 \newlistof[chapter]{myequations}{equ}{\listequationsname}
 \newcommand{\myequations}[1]{
-\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}\hspace{10mm} #1}\par}
 \newcommand\listofequations{\begingroup
 \tocfile{\listequationsname}{equ}
 \endgroup}

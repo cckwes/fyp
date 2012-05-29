@@ -140,8 +140,15 @@
 	number = "1",
 	pages = "4",
 	title = "{Understanding Hall Effect Sensors}",
-	note = "\texttt{http://www.wellsve.com/sft503/Counterpoint31.pdf}",
+	note = "\texttt{http://www.wellsve.com/sft503/Counterpoint3\textunderscore1.pdf}",
 	volume = "36",
 	year = "1999"
 }
 
+@misc{kld,
+	author = "KLD, Energy Technologies",
+	pages = "2",
+	title = "{KLD D1064R Electric Drive System}",
+	note = "\texttt{http://www.kldenergy.com/}",
+	year = "2010"
+}

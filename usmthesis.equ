@@ -1,6 +1,14 @@
 \raggedright \sloppy 
 \hfill {\bfseries Page}\\
-\contentsline {myequations}{\numberline {3.1}Wheel speed for direct drive based on hall effect sensor signal, wheel diameter and PMBLDC number of poles}{18}{equation.3.1}
-\contentsline {myequations}{\numberline {3.2}Power Input}{21}{equation.3.2}
-\contentsline {myequations}{\numberline {3.3}Voltage Divider}{23}{equation.3.3}
-\contentsline {myequations}{\numberline {3.4}Voltage Divider for negative voltage}{23}{equation.3.4}
+\contentsline {myequations}{\numberline {3.1}\hspace {10mm} Wheel speed for direct drive based on hall effect sensor signal, wheel diameter and PMBLDC number of poles}{16}{equation.3.1}
+\contentsline {myequations}{\numberline {3.2}\hspace {10mm} Power Input}{19}{equation.3.2}
+\contentsline {myequations}{\numberline {3.3}\hspace {10mm} Voltage Divider}{20}{equation.3.3}
+\contentsline {myequations}{\numberline {3.4}\hspace {10mm} Voltage Divider for negative voltage}{21}{equation.3.4}
+\contentsline {myequations}{\numberline {3.5}\hspace {10mm} Mathematical model for the torque of the electric motor}{25}{equation.3.5}
+\contentsline {myequations}{\numberline {3.6}\hspace {10mm} Relationship between power output, torque and rotational speed}{25}{equation.3.6}
+\contentsline {myequations}{\numberline {3.7}\hspace {10mm} Air drag force}{25}{equation.3.7}
+\contentsline {myequations}{\numberline {3.8}\hspace {10mm} Rolling resistance}{26}{equation.3.8}
+\contentsline {myequations}{\numberline {3.9}\hspace {10mm} Uphill/downhill force}{26}{equation.3.9}
+\contentsline {myequations}{\numberline {3.10}\hspace {10mm} Newton's Second Law of Motion}{26}{equation.3.10}
+\contentsline {myequations}{\numberline {3.11}\hspace {10mm} Combined mathematical model for vehicle dynamics}{27}{equation.3.11}
+\contentsline {myequations}{\numberline {3.12}\hspace {10mm} Acceleration/Decceleration of the electric vehicle}{27}{equation.3.12}
