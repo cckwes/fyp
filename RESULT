@@ -29,7 +29,7 @@ graph of drag vs distance										2_3				v
 -if at a flat road, the strategy limits the speed within 11-19m/s, except for journey after 2750m which cruises
 -if uphill, the car will maintain at constant speed
 -if downhill, cruise
-graph of power vs distance										3_0
-graph of speed and gradient vs distance									3_1
-power and gradient vs distance										3_2
-graph of drag vs distance										3_3
+graph of power vs distance										3_0				v
+graph of speed and gradient vs distance									3_1				v
+power and gradient vs distance										3_2				v
+graph of drag vs distance										3_3				v

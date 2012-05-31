@@ -160,7 +160,7 @@ Mileage & 27.6 km/kWh \\ \hline
 \subsection{Preset Strategy 2}
 Since the "Preset Strategy 1" waste a lot of energy by accelerating through the ending straight and the speed of the vehicle is stil reducable for reducing the effect of air-drag, "Preset Strategy 2" is set so that the vehicle cruise to the end of a lap and the speed is controlled within 14m/s and the vehicle started to cruise at 2650m displacement onwards until the start/finish line.
 
-Figure 
+Figure \ref{im:2_1} shows the graph of speed and gradient versus displacement. The speed curve is similar to the speed curve for "Preset Strategy 1" except that the top speed of the electric vehicle is limited to 14m/s by the strategy. The curve after 2650 displacement is also dropping which is different than previus strategy. 
 
 \begin{figure}[htb]
 	\centering
@@ -169,12 +169,16 @@ Figure
 	\label{im:2_1}
 \end{figure}
 
+Figure \ref{im:2_2} is the graph of power and gradient versus displacement. The power curve is similar to the power curve for the previous strategy with some minor difference which is the power output of the electric motor is 0 near the end of the circuit (after 2650m). In addition, lot's of fluctuation is observed between 250m to 650m displacement. This is because the simulation set the throttle to 0 and 1 alternatively for maintaining the top speed at 14m/s which is similar to the principle of PWM. In real life, switching between minimum and maximum throttle frequently will create lot's of current spike and hence waste more energy. Therefore, in actual race, the driver have to adjust the throttle so that the speed maintain at 14m/s. 
+
 \begin{figure}[htb]
 	\centering
 	\includegraphics[width=6in]{images/2_2.jpg}
 	\caption{Graph of Power and Gradient versus displacement for "Preset Strategy 2"}
 	\label{im:2_2}
 \end{figure}
+
+Figure \ref{im:2_3} shows the air drag versus the displacement for "Preset Strategy 2". As the maximum speed is limited to 14m/s, the maximum torque needed by the electric motor for countering the air drag drops to 52.5N.m which is another 24.5\% improvement over the previous strategy.
 
 \begin{figure}[htb]
 	\centering
@@ -183,4 +187,78 @@ Figure
 	\label{im:2_3}
 \end{figure}
 
+Table \ref{tb:preset2Result} shows the main result for "Preset Strategy 2". As shown in the tablem the energy consumption is reduced to 318200J hence the mileage increases to 31.7km/kWh. Due to the top speed limitation, the average speed of the vehicle reduces. Therefore the lap time increases to 262 seconds yielding the total time for 1 attempt to be 1087 seconds which is 18 minutes 7 seconds. 
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Result} & \textbf{Value} \\ \hline
+Total Energy Consumption & 318200J \\ \hline
+Total Time for 1 Lap & 261.699s \\ \hline
+Mileage & 31.7 km/kWh \\ \hline
+\end{tabular}
+\end{center}
+\caption{Main result for "Preset Strategy 2" }
+\label{tb:preset2Result}
+\end{table} \clearpage
+
+\subsection{Preset Strategy 3}
+
+"Preset Strategy 2" reduces the energy consumption of the electric vehicle compared to "Preset Strategy 1" but there is still room of improvement because full throttle is aplied when the vehicle is climbing so the generated torque at some section may exceed the required torque which will then accelerate the vehicle when driving uphill. Therefore, a new strategy is composed to tackle this problem which is the "Preset Strategy 3".
+
+The "Preset Strategy 3" is a strategy which has the following characteristics:
+
+\begin{itemize}
+	\item{Gradual acceleration, limit the acceleration to 0.13m/$s^2$.}
+	\item{The speed is limited to 11m/s-12m/s at flat road before 2600m displacement.}
+	\item{Vehicle cruising after 2600m displacement.}
+	\item{Vehicle maintain at constant speed when driving up the slope.}
+	\item{Vehicle cruising when driving down the slope.}
+\end{itemize}
+
+Figure \ref{im:3_1} shows the speed and gradient versus the displacement graph. From the graph, the maximum speed of the electric vehicle is reduced to 11.9m/s. The speed when the vehicle is driving up the hill is almost constant with low magnitude fluctuation due to the calculation of air drag using the previous velocity. 
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=6in]{images/3_1.jpg}
+	\caption{Graph of Speed and Gradient versus displacement for "Preset Strategy 3"}
+	\label{im:3_1}
+\end{figure}
+
+Figure \ref{im:3_2} shows the power and gradient versus displacement graph. As shown in the graph, the power output of the electric vehicle matches the gradient of the track with some minor offset contributed by the acceleration of the vehicle and the air drag on the vehicle. The maximum power output power occurs at around 1350m displacement with a value of 1.75kW. 
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=6in]{images/3_2.jpg}
+	\caption{Graph of Power and Gradient versus displacement for "Preset Strategy 3"}
+	\label{im:3_2}
+\end{figure}
+
+Figure \ref{im:3_3} shows the graph of air drag versus displacement for "Preset Strategy 3". Again, the maximum torque required to overcome the air drag reduced from previous strategies' value to 34N.m which occurs at around 650m displacement due to the peak vehicle speed at that point. By implementing this strategy, the maximum air drag dropped by 35.2\% .
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=6in]{images/3_3.jpg}
+	\caption{Graph of air drag versus displacement for "Preset Strategy 3"}
+	\label{im:3_3}
+\end{figure}
+
+Table \ref{tb:preset3Result} shows the main simulation result for "Preset Strategy 3". The total energy consumption is less than the previous strategies which is 216385J and the mileage increases to 46.6km/kWh. The lap time is increases to 390.491 seconds, hence the attempt time would be 1602 seconds which is equal to 26 mins and 42 seconds. The attempt time is slightly (1 minute and 18 seconds) under the time limit (28 minutes).
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Result} & \textbf{Value} \\ \hline
+Total Energy Consumption & 216385J \\ \hline
+Total Time for 1 Lap & 390.491s \\ \hline
+Mileage & 46.6 km/kWh \\ \hline
+\end{tabular}
+\end{center}
+\caption{Main result for "Preset Strategy 3" }
+\label{tb:preset3Result}
+\end{table} \clearpage
+
+\subsection{Comparison Between Preset Strategies}
 \section{Summary}

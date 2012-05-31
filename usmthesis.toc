@@ -45,12 +45,14 @@
 \contentsline {section}{\numberline {4.5}Strategies}{34}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Preset Strategy 1}{34}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}Preset Strategy 2}{37}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Summary}{37}{section.4.6}
-\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{39}{chapter.5}
+\contentsline {subsection}{\numberline {4.5.3}Preset Strategy 3}{40}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Comparison Between Preset Strategies}{43}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Summary}{43}{section.4.6}
+\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{44}{chapter.5}
 \cftpagenumberson {chap}
-\contentsline {chapter}{References}{40}{section*.15}
+\contentsline {chapter}{References}{45}{section*.15}
 \setlength {\cftbeforechapskip }{1pc}
-\contentsline {part}{\uppercase {Appendices}}{42}{section*.16}
+\contentsline {part}{\uppercase {Appendices}}{47}{section*.16}
 \renewcommand {\chaptername }{Appendix}
 \setlength \cftchapnumwidth {7pc}
-\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{43}{appendix.A}
+\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{48}{appendix.A}
