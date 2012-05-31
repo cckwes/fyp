@@ -1,15 +1,15 @@
 \select@language {english}
 \contentsline {chapter}{Acknowledgements}{ii}{chapter*.1}
 \contentsline {chapter}{Contents}{iii}{section*.3}
-\contentsline {chapter}{List of Tables}{v}{section*.5}
-\contentsline {chapter}{List of Figures}{vi}{section*.7}
-\contentsline {chapter}{List of Equations}{vii}{section*.9}
-\contentsline {chapter}{List of Abbreviations}{viii}{chapter*.10}
-\contentsline {chapter}{List of Symbols}{ix}{chapter*.11}
+\contentsline {chapter}{List of Tables}{vi}{section*.5}
+\contentsline {chapter}{List of Figures}{vii}{section*.7}
+\contentsline {chapter}{List of Equations}{ix}{section*.9}
+\contentsline {chapter}{List of Abbreviations}{x}{chapter*.10}
+\contentsline {chapter}{List of Symbols}{xi}{chapter*.11}
 \select@language {bahasa}
-\contentsline {chapter}{Abstrak}{x}{chapter*.12}
+\contentsline {chapter}{Abstrak}{xii}{chapter*.12}
 \select@language {english}
-\contentsline {chapter}{Abstract}{xi}{chapter*.13}
+\contentsline {chapter}{Abstract}{xiii}{chapter*.13}
 \setlength {\cftbeforechapskip }{2.5pc}
 \cftpagenumbersoff {chap}
 \contentsline {chapter}{\numberline {1}\uppercase {Introduction}}{1}{chapter.1}
@@ -42,13 +42,15 @@
 \contentsline {section}{\numberline {4.2}Signal Identification}{28}{section.4.2}
 \contentsline {section}{\numberline {4.3}Measurement System}{28}{section.4.3}
 \contentsline {section}{\numberline {4.4}Vehicle Simulation}{28}{section.4.4}
-\contentsline {section}{\numberline {4.5}Strategies}{28}{section.4.5}
-\contentsline {section}{\numberline {4.6}Summary}{28}{section.4.6}
-\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{29}{chapter.5}
+\contentsline {section}{\numberline {4.5}Strategies}{34}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Preset Strategy 1}{34}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Preset Strategy 2}{37}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Summary}{37}{section.4.6}
+\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{39}{chapter.5}
 \cftpagenumberson {chap}
-\contentsline {chapter}{References}{30}{section*.15}
+\contentsline {chapter}{References}{40}{section*.15}
 \setlength {\cftbeforechapskip }{1pc}
-\contentsline {part}{\uppercase {Appendices}}{32}{section*.16}
+\contentsline {part}{\uppercase {Appendices}}{42}{section*.16}
 \renewcommand {\chaptername }{Appendix}
 \setlength \cftchapnumwidth {7pc}
-\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{33}{appendix.A}
+\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{43}{appendix.A}

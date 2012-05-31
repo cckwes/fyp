@@ -1,0 +1,35 @@
+all using displacement step of 1m
+
+
+0th strategy, full throttle
+-full throttle everywhere
+graph of power vs distance										0_0				v
+graph of speed and gradient vs distance									0_1				v
+power and gradient vs distance										0_2				v
+graph of drag vs distance										0_3				v
+
+
+1st preset strategy
+-full throttle uphill, cruise downhill
+graph of power vs distance										1_0				v
+graph of speed and gradient vs distance									1_1				v
+power and gradient vs distance										1_2				v
+graph of drag vs distance										1_3				v
+
+
+2nd preset strategy
+-full throttle when uphill, less than 16m/s speed and less than 2650m(final straight)
+graph of power vs distance										2_0				v
+graph of speed and gradient vs distance									2_1				v
+power and gradient vs distance										2_2				v
+graph of drag vs distance										2_3				v
+
+
+3rd preset strategy
+-if at a flat road, the strategy limits the speed within 11-19m/s, except for journey after 2750m which cruises
+-if uphill, the car will maintain at constant speed
+-if downhill, cruise
+graph of power vs distance										3_0
+graph of speed and gradient vs distance									3_1
+power and gradient vs distance										3_2
+graph of drag vs distance										3_3

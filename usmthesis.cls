@@ -293,7 +293,11 @@
 % For customising floats
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \RequirePackage{rotfloat}
-\floatstyle{plaintop}\restylefloat{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%for putting the caption on top of table
+%%\floatstyle{plaintop}\restylefloat{table}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\restylefloat{table}
 \if@boxfig\floatstyle{boxed}\else\floatstyle{plain}\fi
 \restylefloat{figure}
 

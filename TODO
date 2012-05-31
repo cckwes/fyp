@@ -49,3 +49,9 @@
 	      ** show simulation result for several strategies
 	      ** show improvement
 	      ** discuss improvement, why and how
+	*parameter
+	      ** mass = 180kg, mass with driver = 250kg
+	      ** Crr = 0.016
+	      ** Cd = ~0.7
+	      ** frontal area = 1.2m
+	      
