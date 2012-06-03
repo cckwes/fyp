@@ -45,7 +45,14 @@ Figure \ref{im:hall_signal} shows the hall effect signals which is a square wave
 	\label{im:hall_circuit}
 \end{figure}
 
-There are 16 ports for signal and power from the controller to the speedometer as shown in figure \textbf{...}. The method for detecting the signal is trial and error and elimination. The ground port is found using the digital multimeter where the two probes of the digital multimeter is plug in to any 2 ports. The port where it is constantly lower voltage than the other 15 ports is the ground port.
+There are 16 ports for signal and power from the controller to the speedometer as shown in figure \ref{im:16pin}. The method for detecting the signal is trial and error and elimination. The ground port is found using the digital multimeter where the two probes of the digital multimeter is plug in to any 2 ports. The port where it is constantly lower voltage than the other 15 ports is the ground port.
+
+\begin{figure} [htb]
+	\centering
+	\includegraphics[width=4in]{images/16pin.jpg}
+	\caption{16 pins controller circuit output}
+	\label{im:16pin}
+\end{figure}
 
 After the ground port is found, the procedure above is repeated by testing the 15 ports by taking the ground port as reference. The voltage reading for those 15 ports is measured and recorded when the system is idle and when the motor is running. The ports for the following signal should be found:
 
@@ -55,7 +62,14 @@ After the ground port is found, the procedure above is repeated by testing the 1
 	\item{A constant voltage ~12V for powering the speedometer}
 \end{itemize}
 
-The hall effect sensor terminal is a 8 ports input/output as shown in figure \textbf{...}.. Again, the method for detecting the signal is trial and error with step by step elimination that is similar to the method used for identifying the speed signal at the controller circuit. The hall effect sensor circuit has the same circuit that is shown in figure \ref{im:hall_circuit} except that it has 3 sensors signal output instead of 1 output. 
+The hall effect sensor terminal is a 8 ports input/output as shown in figure \ref{im:hall8pin}. Again, the method for detecting the signal is trial and error with step by step elimination that is similar to the method used for identifying the speed signal at the controller circuit. The hall effect sensor circuit has the same circuit that is shown in figure \ref{im:hall_circuit} except that it has 3 sensors signal output instead of 1 output. 
+
+\begin{figure} [htb]
+	\centering
+	\includegraphics[width=4in]{images/hall.jpg}
+	\caption{8 pins hall effect sensor I/O}
+	\label{im:hall8pin}
+\end{figure}
 
 The hall effect sensor tapping is started with the identification of the voltage input to the hall effect sensors circuit. The voltage input to the circuit is 12V, hence, using the same method as speed signal detection, the digital multimeter's probe is plug into the any 2 ports of the 8 I/O ports within the terminal and detect the port with 12V reading.
 
@@ -129,7 +143,7 @@ Therefore, using a voltage divider, a negative voltage can be converted to posit
 
 The third parameter that need to be included in the measurement system is the input current. The input current is needed for calculating the input power to the electric vehicle and thus the overall vehicle mileage can be calculated. Since the rules of Shell Eco-Marathon restricted the nominal current input to the electric vehilce to be 60A and the peak current must be less than 150A, therefore a 200A current sensor is used.
 
-The current sensor used in detecting the input current is the ALLEGRO MICROSYSTEMS ACS758ECB-200B-PFF-T which is a 200A current sensor with 5 terminals and analog voltage output signal as shown in figure \textbf{....} In order for the microcontroller to measure the current, a current measuring circuit with the current sensor is built. The schematic of the current sensor circuit is shown in figure \textbf{....}
+The current sensor used in detecting the input current is the ALLEGRO MICROSYSTEMS ACS758ECB-200B-PFF-T which is a 200A current sensor with 5 terminals and analog voltage output signal. In order for the microcontroller to measure the current, a current measuring circuit with the current sensor is built.
 
 After the prototype circuit of the current measuring circuit, the voltage measurement circuit and the speed voltage divider circuit is built, the 3 circuits is integrated into a single circuit and the microcontroller is program in a way that it can read, log and display the speed of the vehicle, the instantaneous current and voltage and the mileage covered every 100ms interval.
 

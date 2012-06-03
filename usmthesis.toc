@@ -28,31 +28,31 @@
 \contentsline {section}{\numberline {3.1}Introduction}{15}{section.3.1}
 \contentsline {section}{\numberline {3.2}Signal Identification}{15}{section.3.2}
 \contentsline {section}{\numberline {3.3}Measurement System}{19}{section.3.3}
-\contentsline {section}{\numberline {3.4}Vehicle Simulation}{22}{section.3.4}
+\contentsline {section}{\numberline {3.4}Vehicle Simulation}{23}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Track}{23}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Electric Motor}{24}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Air Drag Force}{25}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Rolling Resistance}{25}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.3}Air Drag Force}{26}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Rolling Resistance}{26}{subsection.3.4.4}
 \contentsline {subsection}{\numberline {3.4.5}Slope}{26}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Vehicle Acceleration}{26}{subsection.3.4.6}
-\contentsline {subsection}{\numberline {3.4.7}Combine Mathematical Model}{26}{subsection.3.4.7}
-\contentsline {section}{\numberline {3.5}Summary}{27}{section.3.5}
-\contentsline {chapter}{\numberline {4}\uppercase {Result and Discussion}}{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{28}{section.4.1}
-\contentsline {section}{\numberline {4.2}Signal Identification}{28}{section.4.2}
-\contentsline {section}{\numberline {4.3}Measurement System}{28}{section.4.3}
-\contentsline {section}{\numberline {4.4}Vehicle Simulation}{28}{section.4.4}
-\contentsline {section}{\numberline {4.5}Strategies}{34}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Preset Strategy 1}{34}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Preset Strategy 2}{37}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Preset Strategy 3}{40}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Comparison Between Preset Strategies}{43}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Summary}{43}{section.4.6}
-\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{44}{chapter.5}
+\contentsline {subsection}{\numberline {3.4.6}Vehicle Acceleration}{27}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}Combine Mathematical Model}{27}{subsection.3.4.7}
+\contentsline {section}{\numberline {3.5}Summary}{28}{section.3.5}
+\contentsline {chapter}{\numberline {4}\uppercase {Result and Discussion}}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Signal Identification}{29}{section.4.2}
+\contentsline {section}{\numberline {4.3}Measurement System}{30}{section.4.3}
+\contentsline {section}{\numberline {4.4}Vehicle Simulation}{30}{section.4.4}
+\contentsline {section}{\numberline {4.5}Strategies}{36}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Preset Strategy 1}{36}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Preset Strategy 2}{39}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Preset Strategy 3}{42}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Comparison Between Strategies}{45}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Summary}{46}{section.4.6}
+\contentsline {chapter}{\numberline {5}\uppercase {Conclusion}}{49}{chapter.5}
 \cftpagenumberson {chap}
-\contentsline {chapter}{References}{45}{section*.15}
+\contentsline {chapter}{References}{50}{section*.15}
 \setlength {\cftbeforechapskip }{1pc}
-\contentsline {part}{\uppercase {Appendices}}{47}{section*.16}
+\contentsline {part}{\uppercase {Appendices}}{52}{section*.16}
 \renewcommand {\chaptername }{Appendix}
 \setlength \cftchapnumwidth {7pc}
-\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{48}{appendix.A}
+\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{53}{appendix.A}
