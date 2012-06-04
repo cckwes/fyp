@@ -119,7 +119,14 @@ The measurement system that has the ability to measure the input voltage, input 
 	\label{im:sch}
 \end{figure}
 
-The job of displaying the measured parameter and logging it into a SD card is done by the ITDB02 shield and the ITDB02-3.2WC LCD screen, the combination of the Arduino microcontroller, the shield and the LCD display is shown in figure \textbf{...}
+The job of displaying the measured parameter and logging it into a SD card is done by the ITDB02 shield and the ITDB02-3.2WC LCD screen, the combination of the Arduino microcontroller, the shield and the LCD display is shown in figure \ref{im:arduino}.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=5in]{images/arduino.jpg}
+	\caption{Arduino Microcontroller, display shield and LCD display}
+	\label{im:arduino}
+\end{figure} \clearpage
 
 \section{Vehicle Simulation}
 The vehicle dynamics simulation software is built. As explained in last chapter, the simulation software has the ability to simulate the vehicle behaviour when driving around the Sepang North Track. As shown in figure \ref{im:vehicleSettings}, the software is initialized before the simulation can be started. The software takes a few parameter for initialization of the vehicle model which includes the vehicle driving wheel diameter, the total mass of the electric vehicle include the mass of the driver, the frontal area of the electric vehicle, the coefficient of rolling resistance and the coefficient of drag. The parameter for initializing the vehicle model is shown in table \ref{tb:vehicleModelParameter}.
