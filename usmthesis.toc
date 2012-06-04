@@ -55,7 +55,3 @@
 \cftpagenumberson {chap}
 \contentsline {chapter}{References}{53}{section*.16}
 \setlength {\cftbeforechapskip }{1pc}
-\contentsline {part}{\uppercase {Appendices}}{55}{section*.17}
-\renewcommand {\chaptername }{Appendix}
-\setlength \cftchapnumwidth {7pc}
-\contentsline {chapter}{\numberline {A}\uppercase {Schematic}}{56}{appendix.A}

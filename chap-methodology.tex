@@ -1,15 +1,15 @@
 \chapter{Methodology}\label{chap:methodology}
 \section{Introduction}
-In this chapter, the procedure for tapping the signal from the proprietary controller and PMBLDC motor and then building a performance measurement system based on the identified signal will be listed. Furthermore, the process of developing the mathematical model and the simulation of electric vehicle on Sepang North Track will be described so that the optimal mileage strategy could be identified.
+In this chapter, the procedure for tapping the signal from the proprietary controller and PMBLDC motor and then building a performance measurement system based on the identified signal will be listed. Furthermore, the process of developing the mathematical model and the simulation software for the electric vehicle on Sepang North Track will be described so that the optimal mileage strategy could be created.
 
 %%The terminology of this project is to hack and get the signal from a proprietary contoller and a PMBLDC hub motor, then a performance measurement system is built upon the signal obtained and then simulation is used for building optimal mileage strategy.
 
 \section{Signal Identification}
-The drive train of the electric vehicle that will be used for participation in Shell Eco-Marathon consists of a single hub motor with no transmission. The hub motor is a PMBLDC motor, hence a controller is needed for controlling the speed as well as running the hub motor. The controller has two parts which is the controller circuit that is responsible for signal handling and a power unit which receives the signal from the signal handling unit and create the phase current for running the PMBLDC.
+The drive train of the electric vehicle that will be used for participating in Shell Eco-Marathon consists of a single hub motor with no transmission. The hub motor is a PMBLDC motor, hence a controller is needed for controlling the speed as well as running the hub motor. The controller has two parts which is the controller circuit that is responsible for signal handling and a power unit which receives the signal from the signal handling unit and create the phase current for running the PMBLDC.
 
 The signal unit of the controller takes input signal from the throttle, the key and also the hall effect sensors signal from the PMBLDC motor before it can do the calculation and output the signal to the power unit. Apart from that, the signal unit of the controller powers the speedometer and delivers the signal (for example:  speed, battery voltage, vehicle mileage covered and the state of charge (SOC) of the battery ) for displaying at the speedometer.
 
-Since the speedometer acts solely as a display unit, it does not have signal outputs or data logging capability. Logging the data manually by reading and recording the speed, voltage and SOC when the vehicle is running is appropriate because the electric vehilce is a single seater vehicle and it's impossible for the driver to drive and record the data simultaneously. 
+Since the speedometer acts solely as a display unit, it does not have signal outputs or data logging capability. Logging the data manually by reading and recording the speed, voltage and SOC while driving the vehicle is inappropriate because the electric vehicle is a single seater vehicle and it's impossible for the driver to drive and record the data simultaneously. 
 
 Therefore, the signals need to be tapped from the signal unit of the controller in order to build a system that is able to measure, display and log the data needed. Tapping all the signals is redundant because some reading is primary (for example the voltage) whereas some readings are derived from the primary signal (for instance, the SOC of the battery is based on the voltage). Hence, identification of the primary signals should be adequate.
 
@@ -29,7 +29,7 @@ Before the signal can be tapped and identified, the nature of the signal should 
 	V = \frac{\pi D}{2Nt}
 \end{equation}
 
-Figure \ref{im:hall_signal} shows the hall effect signals which is a square wave. The hall effect sensor is a sensor where the output voltage from the sensor will change from minimum to maximum or vise versa depending on the circuit configuration. Since the sensor circuit is set in a way that it ampliefies the signal and output high/low when the magnetic field of the rotor is detected as shown in figure \ref{im:hall_circuit}, the signal output of the hall effect sensors is a square wave.
+Figure \ref{im:hall_signal} shows the hall effect signals which is a square wave. The hall effect sensor is a sensor where the output voltage from the sensor will change from minimum to maximum or vise versa depending on the circuit configuration. Since the sensor circuit is set in a way that it amplifies the signal and then output high/low signal when the magnetic field of the rotor is detected as shown in figure \ref{im:hall_circuit}.
 
 \begin{figure} [htb]
 	\centering
@@ -45,7 +45,7 @@ Figure \ref{im:hall_signal} shows the hall effect signals which is a square wave
 	\label{im:hall_circuit}
 \end{figure}
 
-There are 16 ports for signal and power from the controller to the speedometer as shown in figure \ref{im:16pin}. The method for detecting the signal is trial and error and elimination. The ground port is found using the digital multimeter where the two probes of the digital multimeter is plug in to any 2 ports. The port where it is constantly lower voltage than the other 15 ports is the ground port.
+There are 16 ports for signal and power from the controller to the speedometer as shown in figure \ref{im:16pin}. The method for detecting the signal is trial and error and elimination by using the digital multimeter where the two probes of the digital multimeter is plug in to any 2 ports. The ground port is found by identifying the lowest voltage among the 16 ports.
 
 \begin{figure} [htb]
 	\centering
@@ -58,7 +58,7 @@ After the ground port is found, the procedure above is repeated by testing the 1
 
 \begin{itemize}
 	\item{Speed where the reading changes when the motor is rotating and static}
-	\item{Battery voltage which it is at ~50+V when the motor is idle and drops ~2V when the motor is running}
+	\item{Battery voltage which it is at ~50+V when the motor is idle and drops slightly when the motor is running}
 	\item{A constant voltage ~12V for powering the speedometer}
 \end{itemize}
 
@@ -78,7 +78,7 @@ After the voltage input ports is identified, the 3 hall effect sensors output si
 After the hall effect sensors output port has been identified, the probes of the multimeter is plugged into the first hall effect sensor output port and the ground port. The wheel is rotated manually by hand over a revolution and the number of square wave over a wheel revolution is measured. 
 
 \section{Measurement System}
-After the primary signal (speed and voltage) is identified, a measurement that has the ability to measure, display and log the parameters need to be built. The purpose of building the measurement system is to
+After the primary signal (speed and voltage) is identified, a measurement system that has the ability to measure, display and log the parameters need to be built. The purpose of building the measurement system is to
 
 \begin{itemize}
 	\item{Measure and log the power consumption of the electric vehicle so that the mileage of the vehicle can be known.}
@@ -98,7 +98,7 @@ The measurement system uses a circuit with microcontroller, crystal and I/O pins
 
 Since the microcontroller board can only accept I/O less than 5V and more than 0V but the battery voltage is in the range of 48V - 60V and the speed signal from the controller is negative voltage, hence an intermediate circuit has to be built so that the signal can be read by the microcontroller.
 
-For the voltage measurement circuit, a voltage divider is built for measuring the voltage of the battery. The voltage divider is a 2 resistor circuit that has same or different value of resistance for each of the resistor as shown in figure \ref{im:voltageDivider} The voltage output, \textit{$V_{out}$} can be calculated using equation \ref{eq:voltageDivider} where \textit{R1} is the resistance for the first resistor, \textit{R2} is the resistance of the second resistor and \textit{$V_{in}$} is the voltage that need to be measured.
+For the voltage measurement circuit, a voltage divider is built for measuring the voltage of the battery. The voltage divider is a 2 resistor circuit that has same or different value of resistance for each of the resistor as shown in figure \ref{im:voltageDivider}. The voltage output, \textit{$V_{out}$} can be calculated using equation \ref{eq:voltageDivider} where \textit{R1} is the resistance for the first resistor, \textit{R2} is the resistance of the second resistor and \textit{$V_{in}$} is the voltage that need to be measured.
 
 \begin{figure}[htb]
 	\centering
@@ -113,7 +113,7 @@ For the voltage measurement circuit, a voltage divider is built for measuring th
 	V_{out} = \frac{V_{in}R2}{R1+R2}
 \end{equation}
 
-For measuring the speed, the same method which is the voltage divider is used with a little modification which replaces the \textit{$V_{in}$} to +5V and the ground to \textit{$V_{in}$} as shown in figure \ref{im:voltageDividerInverse} The \textit{$V_{out}$} for the modified voltage divider circuit could be calculated using equation \ref{eq:voltageDividerInverse}
+For measuring the speed, the same method which is the voltage divider is used with a little modification which replaces the \textit{$V_{in}$} to +5V and the ground to \textit{$V_{in}$} as shown in figure \ref{im:voltageDividerInverse}. The \textit{$V_{out}$} for the modified voltage divider circuit could be calculated using equation \ref{eq:voltageDividerInverse}
 
 \begin{figure}[htb]
 	\centering
@@ -141,7 +141,7 @@ If the \textit{$V_{in}$} is 0V, \textit{$V_{out}$} will be:
 
 Therefore, using a voltage divider, a negative voltage can be converted to positive voltage with minimum half of the original resolution.
 
-The third parameter that need to be included in the measurement system is the input current. The input current is needed for calculating the input power to the electric vehicle and thus the overall vehicle mileage can be calculated. Since the rules of Shell Eco-Marathon restricted the nominal current input to the electric vehilce to be 60A and the peak current must be less than 150A, therefore a 200A current sensor is used.
+The third parameter of the measurement system is the input current. The input current is needed for calculating the input power to the electric vehicle and thus the overall vehicle mileage can be calculated. Since the rules of Shell Eco-Marathon restricted the nominal input current to 60A and the peak current must be less than 150A, therefore a 200A current sensor is used.
 
 The current sensor used in detecting the input current is the ALLEGRO MICROSYSTEMS ACS758ECB-200B-PFF-T which is a 200A current sensor with 5 terminals and analog voltage output signal. In order for the microcontroller to measure the current, a current measuring circuit with the current sensor is built.
 
@@ -152,10 +152,10 @@ The purpose of simulating the vehicle behaviour on the Sepang North Track is to 
 
 Since there is no free software in the market currently that has the ability to simulate an electric vehicle and heavily customized for simulating the electric vehicle that would be used in Shell Eco-Marathon, a simulation software is written. 
 
-The first step of building a simulation software is to build mathematical models for various components for vehicle dynamics. The mathematical model for the track and the PMBLDC motor need to be built so that the slope of the track and the power generation and consumption of the electric motor can be known.
+The first step of building a simulation software is to build mathematical models for various components of vehicle dynamics. The mathematical model for the track and the PMBLDC motor need to be built so that the slope of the track and the power generation and power consumption of the electric motor can be known.
 
 \subsection{Track}
-Figure \ref{im:trackGradient} shows the gradient of the track. By observing the graph, it can be seen that the maximum gradient is 5\% and the minimum gradient is -6\%. The gradient of the track can be discretized easily since the gradient is of integer value, meaning that it doesn't has 5.5\% gradient. From figure \ref{im:trackGradient} it also can be observed that the gradient has a minimum length of 25m and the length of each gradient is of n x 25m where n is any integer value, hence, a step of maximum 25m can be used to discretized the track gradient.
+Figure \ref{im:trackGradient} shows the gradient of the track. By observing the graph, it can be seen that the maximum gradient is 5\% and the minimum gradient is -6\%. The gradient of the track can be discretized easily since the gradient is of integer value, meaning that it doesn't has 5.5\% gradient. From figure \ref{im:trackGradient}, the gradient has a minimum length of 25m and the length of each gradient is of n x 25m where n is any integer value, hence, a step of maximum 25m can be used to discretized the track gradient.
 
 \begin{figure} [htb]
 	\centering
@@ -174,9 +174,9 @@ Figure \ref{im:motorTorqueCurve} shows the torque and power output profile of th
 	\label{im:motorTorqueCurve}
 \end{figure}
 
-The torque curve can be discretized into the mathematical model shown in equation \ref{eq:motorTorqueModel}. Since the throttle is a torque type controller, therefore the torque generated by the electric motor can be calculated from the mathematical model for the torque of electric motor times the amount of throttle applied.
+The torque curve can be discretized into the mathematical model shown in equation \ref{eq:motorTorqueModel}. Since the throttle controlling method is torque controlling, therefore the torque generated by the electric motor can be calculated from the mathematical model times the amount of throttle applied.
 
-\begin{equation}
+\begin{equation} [htb]
 	\label{eq:motorTorqueModel}
 	\text{\myequations{Mathematical model for the torque of the electric motor}}
 	T = \begin{cases} 100 N.m, & \mbox{for (0 - 440 RPM)} \\ [0.0003(RPM)^2 - 0.493(RPM) + 260] N.m, & \mbox{for (441 - 800 RPM)} \\ [-0.56(RPM) + 504] N.m, & \mbox{for (801 - 900 RPM)} \end{cases}
@@ -191,7 +191,7 @@ The power output curve of the electric motor shown in figure \ref{im:motorTorque
 \end{equation}
 
 \subsection{Air Drag Force}
-The drag force by air drag exerted on a vehicle is directly proportional to the Coefficient of Drag (Cd), the frontal area of the vehicle, the density of the fluid, which in this context is the density of the air and also the square of the vehicle speed. By assuming the wind speed is 0 and no wind coming from any direction, the air drag force can be represented by the mathematical model shown in equation \ref{eq:airDragForce} where \textit{$\rho$} is the density of the air, \textit{$C_{d}$} is the coefficient of drag, \textit{A} is the frontal area of the vehicle and \textit{v} is the speed of the vehicle.
+The drag force by air drag exerted on a vehicle is directly proportional to the Coefficient of Drag (Cd), the frontal area of the vehicle, the density of the fluid, (which in this context is the density of the air) and also the square of the vehicle speed. By assuming the wind speed is 0 and no wind coming from any direction, the air drag force can be represented by the mathematical model shown in equation \ref{eq:airDragForce} where \textit{$\rho$} is the density of the air, \textit{$C_{d}$} is the coefficient of drag, \textit{A} is the frontal area of the vehicle and \textit{v} is the speed of the vehicle.
 
 \begin{equation}
 	\label{eq:airDragForce}
