@@ -5,13 +5,109 @@ In this chapter, the result of signal identification will be displayed and expla
 
 \section{Signal Identification}
 
-The result of signal tapping for the 16 pin controller circuit output is tabulated. Table \textbf{} shows the result of signal tapping with the ground probe on pinout 1 and voltage terminal for pin 2 to pin 15. From the table, all the reading is in negative voltage, hence indicating that the pinout 1 might be the battery voltage output.
+The result of signal tapping for the 16 pin controller circuit output is tabulated. Table \ref{tb:speedIdenGnd1} shows the result of signal tapping with the ground probe on pinout 1 and voltage terminal for pin 2 to pin 15. From the table, all the reading is in negative voltage, hence indicating that the pinout 1 might be the battery voltage output.
 
-The result of ground probe at pinout 2 is shown in table \textbf{...}. The battery positive voltage pinout is identified as pinout 1, the 12V power supply for the speedometer is identified as pinout 3 and pinout 2, 6 and 11 is identified as ground. 
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Voltage Probe} & \textbf{Ground Probe} & \textbf{Voltage} \\ \hline
+2 & 1 & -56.6 \\ \hline
+3 & 1 & -44.2 \\ \hline
+4 & 1 & 0.0 \\ \hline
+5 & 1 & -55.9 \\ \hline
+6 & 1 & -56.6 \\ \hline
+7 & 1 & 0.0 \\ \hline
+8 & 1 & 0.0 \\ \hline
+9 & 1 & -33.4 \\ \hline
+10 & 1 & -33.4 \\ \hline
+11 & 1 & -56.6 \\ \hline
+12 & 1 & -28.3 \\ \hline
+13 & 1 & -24.0 \\ \hline
+14 & 1 & -23.3 \\ \hline
+15 & 1 & -21.1 \\ \hline
+16 & 1 & -23.7 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Result of signal tapping with the ground probe on pin 1 and voltage terminal on pin 2 to pin 16.}
+\label{tb:speedIdenGnd1}
+\end{table}
 
-The result of placing the ground probe to pinout 2, running the motor and detect the voltage for 15 others pinout is shown in table \textbf{...}. It can be see that the battery voltage drops slightly as the motor spins up and pinout 5 give a negative voltage result. The voltage of other pin remains unchanged when the electric motor is rotating indicates that the pin 5 is the speed signal output port.
+The result of ground probe at pinout 2 is shown in table \ref{tb:speedIdenGnd2}. The battery positive voltage pinout is identified as pinout 1, the 12V power supply for the speedometer is identified as pinout 3 and pinout 2, 6 and 11 is identified as ground. 
 
-The result of tapping the hall effect sensor signals is shown in table \textbf{...}. The 3 hall effect sensors output is identified as pin \textbf{...}, \textbf{...} and \textbf{...}, the positive 12V supply voltage for the hall effect sensor is pin \textbf{...} and the ground is pin \textbf{...}. The total number of poles for the PMBLDC is identified as 28 poles judging from the numbers of square wave tapped from hall effect sensor.
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Voltage Probe} & \textbf{Ground Probe} & \textbf{Voltage} \\ \hline
+1 & 2 & 56.8 \\ \hline
+3 & 2 & 12.4 \\ \hline
+4 & 2 & 0.0 \\ \hline
+5 & 2 & 0.0 \\ \hline
+6 & 2 & 0.0 \\ \hline
+7 & 2 & 0.0 \\ \hline
+8 & 2 & 0.0 \\ \hline
+9 & 2 & 22.6 \\ \hline
+10 & 2 & 22.6 \\ \hline
+11 & 2 & 0.0 \\ \hline
+12 & 2 & 29.9 \\ \hline
+13 & 2 & 0.0 \\ \hline
+14 & 2 & 0.0 \\ \hline
+15 & 2 & 0.0 \\ \hline
+16 & 2 & 0.0 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Result of signal tapping with the ground probe on pin 2 and voltage terminal on pin 1, pin 3 to pin 16.}
+\label{tb:speedIdenGnd2}
+\end{table}
+
+The result of placing the ground probe to pinout 2, running the motor and detect the voltage for 15 others pinout is shown in table \ref{tb:speedIdenGnd2Running}. It can be see that the battery voltage drops slightly as the motor spins up and pinout 5 give a negative voltage result. The voltage of pin 7 and pin 8 gives a fluctuating result between 0.7V - 2.4V and 0.7V to 3.2V respectively. The voltage of other pin remains unchanged when the electric motor is rotating indicates that the pin 5 is the speed signal output port. Pin 7 and pin 8 is not suitable for speed signal output due to the fluctuating voltage.
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Voltage Probe} & \textbf{Ground Probe} & \textbf{Voltage} \\ \hline
+1 & 2 & 56.7 \\ \hline
+3 & 2 & 12.4 \\ \hline
+4 & 2 & 0.0 \\ \hline
+5 & 2 & -3.4 \\ \hline
+6 & 2 & 0.0 \\ \hline
+7 & 2 & 0.7-2.4 \\ \hline
+8 & 2 & 0.7-3.2 \\ \hline
+9 & 2 & 22.6 \\ \hline
+10 & 2 & 22.6 \\ \hline
+11 & 2 & 0.0 \\ \hline
+12 & 2 & 27.8 \\ \hline
+13 & 2 & 0.0 \\ \hline
+14 & 2 & 0.0 \\ \hline
+15 & 2 & 0.0 \\ \hline
+16 & 2 & 0.0 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Result of signal tapping with the ground probe on pin 2 and voltage terminal on pin 1, pin 3 to pin 16 and the motor rotating.}
+\label{tb:speedIdenGnd2Running}
+\end{table}
+
+The result of tapping the hall effect sensor signals is shown in table \ref{tb:hallIdenGnd8}. The possible hall effect sensor output signal are pin 1, pin 2, pin 3, pin 5 and pin 6. The ground probe is then place on pin 8 and voltage probe on pin 1 and the wheel is rotated gradually and the same step is repeated for pin 2, 3, 5 and 6. The 3 hall effect sensors output is identified as pin 2, pin 3 and pin 5 because the voltage goes up and down when the wheel is rotating, the positive 12V supply voltage for the hall effect sensor is pin 1 because it remains at constant 10.4V when the wheel is spinning and the ground is pin 8 because it is at constant 0V.
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Voltage Probe} & \textbf{Ground Probe} & \textbf{Voltage} \\ \hline
+1 & 8 & 10.4 \\ \hline
+2 & 8 & 10.4 \\ \hline
+3 & 8 & 10.4 \\ \hline
+4 & 8 & 3.1 \\ \hline
+5 & 8 & 0.2 \\ \hline
+6 & 8 & 0.1 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Result of hall effect sensors signal tapping with the ground probe on pin 8 and voltage terminal on pin 1 to pin 6.}
+\label{tb:hallIdenGnd8}
+\end{table}
+
 
 \section{Measurement System}
 The measurement system that has the ability to measure the input voltage, input current and speed of the vehilce is built. Figure \ref{im:sch} shows the schematic of the intermediate circuit for connecting the output signal from the controller circuit to the Arduino microcontroller. 
@@ -315,7 +411,7 @@ Figure \ref{im:powerDisp} shows the power versus displacement curves for various
 	\includegraphics[width=5in]{images/drag.png}
 	\caption{Graph of drag torque versus displacement for each strategy}
 	\label{im:dragDisp}
-\end{figure}
+\end{figure} \clearpage
 
 Overall, by introducing optimize for Sepang North Track strategy which is the "Preset Strategy 3", the mileage of the electric vehicle improves from 18km/kWh to 46.58km/kWh which is a huge 158\% increase in the mileage. Therefore, the weight of a good strategy is identified through the comparison between the strategies.
 
@@ -325,6 +421,11 @@ Since this simulation software only simulates vehicle dynamics in ideal conditio
 	\label{eq:vehicleReadMileage}
 	\text{\myequations{Relationship between the simulated vehicle mileage and real vehicle mileage}}
 	M_{real} = \eta M_{sim}
-\end{equation}
+\end{equation} 
 
 \section{Summary}
+The input voltage signal has been identified as the pin 1 of the 16 pin contoller output, the ground signal is pin 2 and the speed signal is pin 5. Apart from that, the hall effect sensors output signal has been identified as pin 2, pin 3 and pin 5 with the pin 1 as voltage provider for the hall effect sensors and pin 8 as ground.
+
+The measurement system has been built for detecting the input voltage, input current and the speed of the vehicle. With the help of microcontroller, display shield, SD card slot and LCD display, the measurement system is able to measure, log and display the required parameter.
+
+Vehicle dynamics simulation software has been built and 4 strategies has been composed with advancement of vehicle mileage through cruising down hill tactic and also the smooth acceleration and torque adaptation tactics.
