@@ -4,7 +4,5 @@
 
 - pin 1 as ground voltage table
 - pin 2 as ground voltage table
-- hall effect sensor pinout 10 degree table
-- hall effect sensor pinout 10 degree graph
+- hall effect sensor pinout voltage table
 - arduino, shield and lcd combo figures
-- schematic of the measurement system

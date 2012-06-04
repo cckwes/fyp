@@ -1,2 +1,19 @@
 \chapter{Conclusion}
 
+\section{Conclusion}
+The signal for voltage, 12V supply voltage and the analog speed signal from the proprietary controller circuit has been identified. Apart from this, the hall effect sensors circuit pinout is identified and the number of poles of the electric motor is known by looking at the number of square wave per revolution of the hall effect sensor signal. The result for the number of poles for the PMBLDC motor is 28 poles.
+
+Next, a measurement system that has the capability to measure the input voltage, input current and speed of the electric vehicle is made. The measurement system also features a SD card slot for logging the input voltage and current, and speed of the electric vehicle datas for future processing. Apart from that, the measurement circuit also act as a display console where the information of speed and system voltage can be delivered to the driver via an LCD display.
+
+The simulation software is build based on the vehicle dynamics mathematical model which takes the rolling resistance, road slope, air drag and vehicle acceleration as parameters. The first strategy which is the "Full Throttle Everywhere" strategy is simulated and the resulting vehicle mileage is 18 km/Kwh. After that, "Preset Strategy 1" is created for tackling the energy wasted during downhill problem and the resulting mileage is improved to 27.62 km/kWh.
+
+The strategy is further improved to "Preset Strategy 2" where the top speed is limited and vehicle cruising towards the end of the circuit which yields the mileage of 31.68 km/kWh. Finally, the "Preset Strategy 3" is introduces with gradual acceleration and dynamic required torque calculation and the result is further improved to 46.58 km/kWh.
+
+To conclude, the objectives are achieved by successfully identified the signal output of the controller and PMBLDC motr and built a measurement system for measuring the required parameter. The simulation program is written and 4 strategies was composed with improvement between each strategy which matches the objective of this research paper.
+
+\section{Future Works}
+Since the controller and PMBLDC motor used in the electric vehicle is sponsored and hardware hacking is forbidden, it is recommended to tune the controller signal for reducing the torque ripple for future works. The controller output signal can be edited by modifying the hall effect sensors signal so that a lead/lag signal can be transmitted to the controller. By accepting the lead/lag hall effect sensors signal, the controller will produce shifted phase current. Hence by manipulating the hall effect sensors, the torque ripple caused by mutual torque in PMBLDC motor can be reduced.
+
+Apart from tuning the drive electronically, the electric vehicle's mileage can be improved by improving the Coefficient of Drag of the electric vehicle. This is because from simulation result, the air-drag plays an important role in resisting the movement of the electric vehicle, hence, by reducing the $C_{d}$ and the frontal area, the mileage of the electric vehicle would be improved.
+
+Lastly, the simulation software could be improved by including the environment variable (for example, the ambient temperature, rain and etc) and the vehicle mathematical model (for instance, the battery model, the PMBLDC motor model, the controller model, the tire pressure model and the battery temperature and discharge model). By improving the accuracy of the simulation software, accurate result can be simulated and better strategies could be tested and used for the future Shell Eco-Marathon racing.

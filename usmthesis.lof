@@ -4,6 +4,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\addvspace {10\p@ }
 \select@language {bahasa}
 \addvspace {10\p@ }
 \select@language {english}
@@ -24,26 +25,27 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Track gradient of Sepang North Track}}{24}{figure.3.7}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Torque and power output curve for KLD D1064R \citep {kld}}}{25}{figure.3.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Vehicle parameter for initializing the vehicle model}}{31}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Choosing the motor model}}{32}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Choosing the track model}}{33}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Setting the displacement interval for iteration}}{34}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Graph of speed and gradient versus displacement for "full throttle everywhere"}}{34}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Graph of power and gradient versus displacement for "full throttle everywhere"}}{35}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Graph of air drag versus displacement for "full throttle everywhere"}}{35}{figure.4.7}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Graph of Speed and Gradient versus displacement for "Preset Strategy 1"}}{37}{figure.4.8}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Graph of Power and Gradient versus displacement for "Preset Strategy 1"}}{38}{figure.4.9}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Graph of air drag versus displacement for "Preset Strategy 1"}}{38}{figure.4.10}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Graph of Speed and Gradient versus displacement for "Preset Strategy 2"}}{39}{figure.4.11}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Graph of Power and Gradient versus displacement for "Preset Strategy 2"}}{40}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Graph of air drag versus displacement for "Preset Strategy 2"}}{41}{figure.4.13}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Graph of Speed and Gradient versus displacement for "Preset Strategy 3"}}{43}{figure.4.14}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Graph of Power and Gradient versus displacement for "Preset Strategy 3"}}{44}{figure.4.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Graph of air drag versus displacement for "Preset Strategy 3"}}{44}{figure.4.16}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Graph of power output versus displacement for various strategy}}{45}{figure.4.17}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Graph of energy consumption for each strategy}}{46}{figure.4.18}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Graph of vehicle mileage for each strategy}}{47}{figure.4.19}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Graph of lap time for each strategy}}{47}{figure.4.20}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Graph of drag torque versus displacement for each strategy}}{48}{figure.4.21}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematic of the Measurement System}}{30}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Vehicle parameter for initializing the vehicle model}}{31}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Choosing the motor model}}{32}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Choosing the track model}}{33}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Setting the displacement interval for iteration}}{34}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Graph of speed and gradient versus displacement for "full throttle everywhere"}}{35}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Graph of power and gradient versus displacement for "full throttle everywhere"}}{35}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Graph of air drag versus displacement for "full throttle everywhere"}}{36}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Graph of Speed and Gradient versus displacement for "Preset Strategy 1"}}{38}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Graph of Power and Gradient versus displacement for "Preset Strategy 1"}}{39}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Graph of air drag versus displacement for "Preset Strategy 1"}}{39}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Graph of Speed and Gradient versus displacement for "Preset Strategy 2"}}{40}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Graph of Power and Gradient versus displacement for "Preset Strategy 2"}}{41}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Graph of air drag versus displacement for "Preset Strategy 2"}}{42}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Graph of Speed and Gradient versus displacement for "Preset Strategy 3"}}{44}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Graph of Power and Gradient versus displacement for "Preset Strategy 3"}}{45}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Graph of air drag versus displacement for "Preset Strategy 3"}}{45}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Graph of power output versus displacement for various strategy}}{46}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Graph of energy consumption for each strategy}}{47}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Graph of vehicle mileage for each strategy}}{48}{figure.4.20}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Graph of lap time for each strategy}}{48}{figure.4.21}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Graph of drag torque versus displacement for each strategy}}{49}{figure.4.22}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

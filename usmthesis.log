@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  2 JUN 2012 23:12
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.5.19)  3 JUN 2012 23:59
 entering extended mode
  %&-line parsing enabled.
 **usmthesis.tex
@@ -626,16 +626,17 @@ File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
 (/usr/share/texmf/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (./usmthesis.aux
-(./acknowledgements.aux) (./loa.aux) (./chap-intro.aux) (./chap-literature.aux)
-(./chap-methodology.aux) (./chap-discussion.aux) (./chap-conclusion.aux)
-(./app-data.aux))
+(./declaration.aux) (./acknowledgements.aux) (./loa.aux) (./chap-intro.aux)
+(./chap-literature.aux) (./chap-methodology.aux) (./chap-discussion.aux)
+(./chap-conclusion.aux) (./app-data.aux))
 \openout1 = `usmthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
 LaTeX Font Info:    Checking defaults for T1/lmr/m/n on input line 86.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 86.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2007/01/14 v1.3 Font defs for Latin Modern
 )
 LaTeX Font Info:    ... okay on input line 86.
@@ -773,7 +774,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <16> not available
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 119.
 
-<images/usm_logo.jpg, id=209, 322.20375pt x 113.67468pt>
+<images/usm_logo.jpg, id=221, 322.20375pt x 113.67468pt>
 File: images/usm_logo.jpg Graphic file (type jpg)
 
 <use images/usm_logo.jpg>pdfTeX warning (ext4): destination with the same ident
@@ -782,17 +783,25 @@ ifier (name{page.i}) has been already used, duplicate ignored
                    \relax 
 l.119 \makecover
                  [1 <./images/usm_logo.jpg>]
-\openout2 = `acknowledgements.aux'.
+\openout2 = `declaration.aux'.
 
- (./acknowledgements.tex) [2
+ (./declaration.tex) [2
 
 
 
 ]
-(./usmthesis.toc
+\openout2 = `acknowledgements.aux'.
+
+
+(./acknowledgements.tex) [3
+
+
+
+] (./usmthesis.toc
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 2.
 
- (/usr/share/texmf/tex/latex/psnfss/ot1ztmcm.fd
+
+(/usr/share/texmf/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 2.
@@ -828,11 +837,11 @@ LaTeX Font Info:    Try loading font information for TS1+ptm on input line 2.
 
 (/usr/share/texmf/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [3
+) [4
 
 
-]
-Overfull \hbox (0.16255pt too wide) detected at line 58
+] [5]
+Overfull \hbox (0.16255pt too wide) detected at line 61
 \T1/ptm/m/n/12 APPENDIX A --  
  []
 
@@ -840,21 +849,21 @@ Overfull \hbox (0.16255pt too wide) detected at line 58
 \tf@toc=\write5
 \openout5 = `usmthesis.toc'.
 
- [4] [5] (./usmthesis.lot)
+ [6] (./usmthesis.lot)
 \tf@lot=\write6
 \openout6 = `usmthesis.lot'.
 
- [6
+ [7
 
 
-] (./usmthesis.lof [7
+] (./usmthesis.lof [8
 
 
 ])
 \tf@lof=\write7
 \openout7 = `usmthesis.lof'.
 
- [8] (./usmthesis.equ
+ [9] (./usmthesis.equ
 Overfull \hbox (3.0pt too wide) detected at line 12
 \T1/ptm/m/n/12 3.10 
  []
@@ -873,7 +882,7 @@ Overfull \hbox (3.0pt too wide) detected at line 14
 \tf@equ=\write8
 \openout8 = `usmthesis.equ'.
 
- [9
+ [10
 
 
 ]
@@ -888,11 +897,11 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.03998pt on input line 4.
- [10
+ [11
 
 
 
-]) [11
+]) [12
 
 ]
 (./abs-mal.tex
@@ -914,10 +923,10 @@ tlems given\par }{G}IVEN\par  on input line 1.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-) (./abs-eng.tex [12
+) (./abs-eng.tex [13
 
 
-]) [13
+]) [14
 
 ] (./mainchaps.tex
 \openout2 = `chap-intro.aux'.
@@ -928,11 +937,11 @@ Chapter 1.
 
 
 
-] <images/signal.jpg, id=466, 478.03593pt x 644.4075pt>
+] <images/signal.jpg, id=487, 478.03593pt x 644.4075pt>
 File: images/signal.jpg Graphic file (type jpg)
 
 <use images/signal.jpg> [2] [3 <./images/signal.jpg>] [4]
-<images/phase_current.jpg, id=486, 500.62032pt x 249.18094pt>
+<images/phase_current.jpg, id=508, 500.62032pt x 249.18094pt>
 File: images/phase_current.jpg Graphic file (type jpg)
 
 <use images/phase_current.jpg> [5 <./images/phase_current.jpg>] [6] [7])
@@ -946,7 +955,7 @@ Chapter 2.
 
 
 ] [10] [11]
-<images/honda_supervision.jpg, id=559, 1070.49937pt x 547.2947pt>
+<images/honda_supervision.jpg, id=580, 1070.49937pt x 547.2947pt>
 File: images/honda_supervision.jpg Graphic file (type jpg)
 
 <use images/honda_supervision.jpg>
@@ -955,7 +964,7 @@ Overfull \hbox (15.36447pt too wide) in paragraph at lines 46--49
  []
 
 [12 <./images/honda_supervision.jpg>]
-<images/honda_flowchart.jpg, id=569, 725.71124pt x 762.59906pt>
+<images/honda_flowchart.jpg, id=590, 725.71124pt x 762.59906pt>
 File: images/honda_flowchart.jpg Graphic file (type jpg)
 
 <use images/honda_flowchart.jpg> [13 <./images/honda_flowchart.jpg>]) [14
@@ -970,27 +979,27 @@ Chapter 3.
 
 
 
-] [16] <images/hall_effect_signals.jpg, id=601, 389.95688pt x 246.9225pt>
+] [16] <images/hall_effect_signals.jpg, id=623, 389.95688pt x 246.9225pt>
 File: images/hall_effect_signals.jpg Graphic file (type jpg)
 
 <use images/hall_effect_signals.jpg>
-<images/hall_sensor_circuit.png, id=606, 380.92313pt x 269.50688pt>
+<images/hall_sensor_circuit.png, id=628, 380.92313pt x 269.50688pt>
 File: images/hall_sensor_circuit.png Graphic file (type png)
 
 <use images/hall_sensor_circuit.png>
-<images/16pin.jpg, id=612, 320.8788pt x 166.4619pt>
+<images/16pin.jpg, id=634, 320.8788pt x 166.4619pt>
 File: images/16pin.jpg Graphic file (type jpg)
  <use images/16pin.jpg>
 [17 <./images/hall_effect_signals.jpg> <./images/hall_sensor_circuit.png (PNG c
-opy)>] <images/hall.jpg, id=620, 271.4943pt x 201.1515pt>
+opy)>] <images/hall.jpg, id=641, 271.4943pt x 201.1515pt>
 File: images/hall.jpg Graphic file (type jpg)
 
 <use images/hall.jpg> [18 <./images/16pin.jpg>] [19 <./images/hall.jpg>]
-<images/voltage_divider.jpg, id=632, 358.33875pt x 523.20468pt>
+<images/voltage_divider.jpg, id=653, 358.33875pt x 523.20468pt>
 File: images/voltage_divider.jpg Graphic file (type jpg)
 
 <use images/voltage_divider.jpg> [20]
-<images/voltage_divider_negative.jpg, id=639, 402.00188pt x 561.59813pt>
+<images/voltage_divider_negative.jpg, id=660, 402.00188pt x 561.59813pt>
 File: images/voltage_divider_negative.jpg Graphic file (type jpg)
 
 <use images/voltage_divider_negative.jpg> [21 <./images/voltage_divider.jpg>]
@@ -1000,7 +1009,7 @@ s the AL-LE-GRO MI-CROSYS-
  []
 
 [22 <./images/voltage_divider_negative.jpg>] [23]
-<images/track_gradient.jpg, id=658, 1443.14156pt x 751.30687pt>
+<images/track_gradient.jpg, id=679, 1443.14156pt x 751.30687pt>
 File: images/track_gradient.jpg Graphic file (type jpg)
 
 <use images/track_gradient.jpg>
@@ -1008,7 +1017,7 @@ Overfull \hbox (15.36447pt too wide) in paragraph at lines 162--165
  [][] 
  []
 
-<images/kld_motor_torque_curve.jpg, id=660, 906.38625pt x 574.39594pt>
+<images/kld_motor_torque_curve.jpg, id=681, 906.38625pt x 574.39594pt>
 File: images/kld_motor_torque_curve.jpg Graphic file (type jpg)
 
 <use images/kld_motor_torque_curve.jpg>
@@ -1026,148 +1035,153 @@ Chapter 4.
 
 
 
-] <images/vehicle_settings.jpg, id=704, 602.25pt x 451.6875pt>
+] <images/sch.png, id=724, 892.33376pt x 803.0pt>
+File: images/sch.png Graphic file (type png)
+ <use images/sch.png>
+[30 <./images/sch.png (PNG copy)>]
+<images/vehicle_settings.jpg, id=731, 602.25pt x 451.6875pt>
 File: images/vehicle_settings.jpg Graphic file (type jpg)
 
 <use images/vehicle_settings.jpg>
-<images/motor_settings.jpg, id=708, 602.25pt x 451.6875pt>
+<images/motor_settings.jpg, id=735, 602.25pt x 451.6875pt>
 File: images/motor_settings.jpg Graphic file (type jpg)
 
 <use images/motor_settings.jpg>
-<images/track_settings.jpg, id=709, 602.25pt x 451.6875pt>
+<images/track_settings.jpg, id=736, 602.25pt x 451.6875pt>
 File: images/track_settings.jpg Graphic file (type jpg)
 
 <use images/track_settings.jpg>
-<images/iteration_step.jpg, id=710, 602.25pt x 451.6875pt>
+<images/iteration_step.jpg, id=737, 602.25pt x 451.6875pt>
 File: images/iteration_step.jpg Graphic file (type jpg)
 
-<use images/iteration_step.jpg> [30] [31 <./images/vehicle_settings.jpg>]
-<images/0_1.jpg, id=720, 1445.4pt x 749.04843pt>
+<use images/iteration_step.jpg> [31 <./images/vehicle_settings.jpg>] [32 <./ima
+ges/motor_settings.jpg>] <images/0_1.jpg, id=747, 1445.4pt x 749.04843pt>
 File: images/0_1.jpg Graphic file (type jpg)
- <use images/0_1.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 82--85
+
+<use images/0_1.jpg>
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 89--92
  [][] 
  []
 
-<images/0_2.jpg, id=722, 1445.4pt x 749.80125pt>
+<images/0_2.jpg, id=749, 1445.4pt x 749.80125pt>
 File: images/0_2.jpg Graphic file (type jpg)
  <use images/0_2.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 91--94
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 98--101
  [][] 
  []
 
-[32 <./images/motor_settings.jpg>]
-<images/0_3.jpg, id=728, 1445.4pt x 751.30687pt>
+[33 <./images/track_settings.jpg>]
+<images/0_3.jpg, id=755, 1445.4pt x 751.30687pt>
 File: images/0_3.jpg Graphic file (type jpg)
  <use images/0_3.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 100--103
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 107--110
  [][] 
  []
 
-[33 <./images/track_settings.jpg>] [34 <./images/iteration_step.jpg> <./images/
-0_1.jpg>] [35 <./images/0_2.jpg> <./images/0_3.jpg>]
-<images/1_1.jpg, id=745, 1445.4pt x 748.29562pt>
+[34 <./images/iteration_step.jpg>] [35 <./images/0_1.jpg> <./images/0_2.jpg>]
+[36 <./images/0_3.jpg>] <images/1_1.jpg, id=772, 1445.4pt x 748.29562pt>
 File: images/1_1.jpg Graphic file (type jpg)
- <use images/1_1.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 132--135
+
+<use images/1_1.jpg>
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 139--142
  [][] 
  []
 
-<images/1_2.jpg, id=747, 1445.4pt x 749.80125pt>
+<images/1_2.jpg, id=774, 1445.4pt x 749.80125pt>
 File: images/1_2.jpg Graphic file (type jpg)
  <use images/1_2.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 141--144
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 148--151
  [][] 
  []
 
-[36
+[37
 
-] <images/1_3.jpg, id=753, 1445.4pt x 749.80125pt>
+] <images/1_3.jpg, id=780, 1445.4pt x 749.80125pt>
 File: images/1_3.jpg Graphic file (type jpg)
  <use images/1_3.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 150--153
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 157--160
  [][] 
  []
 
-[37 <./images/1_1.jpg>] [38 <./images/1_2.jpg> <./images/1_3.jpg>]
-<images/2_1.jpg, id=764, 1445.4pt x 748.29562pt>
+[38 <./images/1_1.jpg>] [39 <./images/1_2.jpg> <./images/1_3.jpg>]
+<images/2_1.jpg, id=791, 1445.4pt x 748.29562pt>
 File: images/2_1.jpg Graphic file (type jpg)
  <use images/2_1.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 178--181
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 185--188
  [][] 
  []
 
-[39
+[40
 
- <./images/2_1.jpg>] <images/2_2.jpg, id=770, 1445.4pt x 749.80125pt>
+ <./images/2_1.jpg>] <images/2_2.jpg, id=798, 1445.4pt x 749.80125pt>
 File: images/2_2.jpg Graphic file (type jpg)
 
 <use images/2_2.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 187--190
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 194--197
  [][] 
  []
 
-<images/2_3.jpg, id=772, 1445.4pt x 750.55406pt>
+<images/2_3.jpg, id=800, 1445.4pt x 750.55406pt>
 File: images/2_3.jpg Graphic file (type jpg)
  <use images/2_3.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 196--199
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 203--206
  [][] 
  []
 
-[40 <./images/2_2.jpg>] [41 <./images/2_3.jpg>]
-<images/3_1.jpg, id=784, 1443.14156pt x 748.29562pt>
+[41 <./images/2_2.jpg>] [42 <./images/2_3.jpg>]
+<images/3_1.jpg, id=811, 1443.14156pt x 748.29562pt>
 File: images/3_1.jpg Graphic file (type jpg)
  <use images/3_1.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 235--238
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 242--245
  [][] 
  []
 
-<images/3_2.jpg, id=786, 1445.4pt x 749.80125pt>
+<images/3_2.jpg, id=813, 1445.4pt x 749.80125pt>
 File: images/3_2.jpg Graphic file (type jpg)
  <use images/3_2.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 244--247
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 251--254
  [][] 
  []
 
-[42
+[43
 
-] <images/3_3.jpg, id=792, 1445.4pt x 751.30687pt>
+] <images/3_3.jpg, id=819, 1445.4pt x 751.30687pt>
 File: images/3_3.jpg Graphic file (type jpg)
  <use images/3_3.jpg>
-Overfull \hbox (15.36447pt too wide) in paragraph at lines 253--256
+Overfull \hbox (15.36447pt too wide) in paragraph at lines 260--263
  [][] 
  []
 
-[43 <./images/3_1.jpg>] [44 <./images/3_2.jpg> <./images/3_3.jpg>]
-<images/power.png, id=807, 867.24pt x 631.60968pt>
+[44 <./images/3_1.jpg>] [45 <./images/3_2.jpg> <./images/3_3.jpg>]
+<images/power.png, id=834, 867.24pt x 631.60968pt>
 File: images/power.png Graphic file (type png)
  <use images/power.png>
-<images/energy.png, id=808, 867.24pt x 542.025pt>
+<images/energy.png, id=835, 867.24pt x 542.025pt>
 File: images/energy.png Graphic file (type png)
  <use images/energy.png>
-<images/mileage.png, id=809, 867.24pt x 533.74406pt>
+<images/mileage.png, id=836, 867.24pt x 533.74406pt>
 File: images/mileage.png Graphic file (type png)
  <use images/mileage.png>
-<images/laptime.png, id=810, 867.24pt x 532.23843pt>
+<images/laptime.png, id=837, 867.24pt x 532.23843pt>
 File: images/laptime.png Graphic file (type png)
  <use images/laptime.png>
-<images/drag.png, id=811, 867.24pt x 529.22719pt>
+<images/drag.png, id=838, 867.24pt x 529.22719pt>
 File: images/drag.png Graphic file (type png)
  <use images/drag.png>
-[45
+[46
 
- <./images/power.png (PNG copy)>]) [46 <./images/energy.png (PNG copy)>]
-[47 <./images/mileage.png (PNG copy)> <./images/laptime.png (PNG copy)>]
-[48 <./images/drag.png (PNG copy)>]
+ <./images/power.png (PNG copy)>]) [47 <./images/energy.png (PNG copy)>]
+[48 <./images/mileage.png (PNG copy)> <./images/laptime.png (PNG copy)>]
+[49 <./images/drag.png (PNG copy)>]
 \openout2 = `chap-conclusion.aux'.
 
  (./chap-conclusion.tex
 Chapter 5.
-) [49
+[50
 
 
 
-]) (./usmthesis.bbl
+]) [51]) (./usmthesis.bbl
 LaTeX Font Info:    Try loading font information for T1+txtt on input line 69.
  (/usr/share/texmf/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
@@ -1176,7 +1190,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--70
 []\T1/ptm/m/n/12 Point, W. C. (1999).  Un-der-stand-ing Hall Ef-fect Sen-sors.
  []
 
-[50
+[52
 
 
 ]
@@ -1185,41 +1199,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--91
 m.
  []
 
-) [51]
+) [53]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 213.
- (./appendices.tex [52
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 218.
+ (./appendices.tex [54
 
 ]
 \openout2 = `app-data.aux'.
 
  (./app-data.tex
 Appendix A.
-) [53
+) [55
 
 
-]) (./usmthesis.aux (./acknowledgements.aux) (./loa.aux) (./chap-intro.aux) (./
-chap-literature.aux) (./chap-methodology.aux) (./chap-discussion.aux)
-(./chap-conclusion.aux) (./app-data.aux)) ) 
+]) (./usmthesis.aux (./declaration.aux) (./acknowledgements.aux)
+(./loa.aux) (./chap-intro.aux) (./chap-literature.aux) (./chap-methodology.aux)
+(./chap-discussion.aux) (./chap-conclusion.aux) (./app-data.aux)) ) 
 Here is how much of TeX's memory you used:
- 9809 strings out of 256216
- 135319 string characters out of 1917072
+ 9833 strings out of 256216
+ 135635 string characters out of 1917072
  213431 words of memory out of 1500000
- 12544 multiletter control sequences out of 10000+200000
+ 12553 multiletter control sequences out of 10000+200000
  53610 words of font info for 81 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 50i,12n,45p,1055b,569s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/ba
-se/8r.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/share/texmf
-/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr
-10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fo
-nts/type1/public/txfonts/t1xtt.pfb></usr/share/texmf/fonts/type1/urw/symbol/usy
-r.pfb></usr/share/texmf/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf/fonts
-/type1/urw/times/utmb8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmr8a.pfb>
-</usr/share/texmf/fonts/type1/urw/times/utmri8a.pfb>
-Output written on usmthesis.pdf (67 pages, 4893857 bytes).
+ 50i,12n,45p,1361b,571s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/
+texmf/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/bluesky/cm/cmex
+10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fo
+nts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.
+pfb></usr/share/texmf/fonts/type1/public/txfonts/t1xtt.pfb></usr/share/texmf/fo
+nts/type1/urw/symbol/usyr.pfb></usr/share/texmf/fonts/type1/urw/symbol/usyr.pfb
+></usr/share/texmf/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf/fonts/typ
+e1/urw/times/utmr8a.pfb></usr/share/texmf/fonts/type1/urw/times/utmri8a.pfb>
+Output written on usmthesis.pdf (70 pages, 4934177 bytes).
 PDF statistics:
- 931 PDF objects out of 1000 (max. 8388607)
- 199 named destinations out of 1000 (max. 131072)
- 579 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 963 PDF objects out of 1000 (max. 8388607)
+ 206 named destinations out of 1000 (max. 131072)
+ 608 words of extra memory for PDF output out of 10000 (max. 10000000)
 

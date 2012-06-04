@@ -9,12 +9,19 @@ The result of signal tapping for the 16 pin controller circuit output is tabulat
 
 The result of ground probe at pinout 2 is shown in table \textbf{...}. The battery positive voltage pinout is identified as pinout 1, the 12V power supply for the speedometer is identified as pinout 3 and pinout 2, 6 and 11 is identified as ground. 
 
-The result of placing the ground probe to pinout 2, running the motor and detect the voltage for 15 others pinout is shown in table \textbf{...}. It can be see that the battery voltage drops slightly as the motor spins up and pinout 4 give a negative voltage result. The voltage of other pin remains unchanged when the electric motor is rotating indicates that the pin 4 is the speed signal output port.
+The result of placing the ground probe to pinout 2, running the motor and detect the voltage for 15 others pinout is shown in table \textbf{...}. It can be see that the battery voltage drops slightly as the motor spins up and pinout 5 give a negative voltage result. The voltage of other pin remains unchanged when the electric motor is rotating indicates that the pin 5 is the speed signal output port.
 
-The result of tapping the hall effect sensor signals for 10\textdegree interval is shown in table \textbf{...}. The 3 hall effect sensors output is identified as pin \textbf{...}, \textbf{...} and \textbf{...}, the positive 12V supply voltage for the hall effect sensor is pin \textbf{...} and the ground is pin \textbf{...}. The pattern of the hall effect sensor is plot and shown in figure \textbf{...}. The total number of poles for the PMBLDC is identified as 28 poles judging from the hall effect sensors signal.
+The result of tapping the hall effect sensor signals is shown in table \textbf{...}. The 3 hall effect sensors output is identified as pin \textbf{...}, \textbf{...} and \textbf{...}, the positive 12V supply voltage for the hall effect sensor is pin \textbf{...} and the ground is pin \textbf{...}. The total number of poles for the PMBLDC is identified as 28 poles judging from the numbers of square wave tapped from hall effect sensor.
 
 \section{Measurement System}
-The measurement system that has the ability to measure the input voltage, input current and speed of the vehilce is built. Figure \textbf{...} shows the schematic of the intermediate circuit for connecting the output signal from the controller circuit to the Arduino microcontroller. 
+The measurement system that has the ability to measure the input voltage, input current and speed of the vehilce is built. Figure \ref{im:sch} shows the schematic of the intermediate circuit for connecting the output signal from the controller circuit to the Arduino microcontroller. 
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=5in]{images/sch.png}
+	\caption{Schematic of the Measurement System}
+	\label{im:sch}
+\end{figure}
 
 The job of displaying the measured parameter and logging it into a SD card is done by the ITDB02 shield and the ITDB02-3.2WC LCD screen, the combination of the Arduino microcontroller, the shield and the LCD display is shown in figure \textbf{...}
 
